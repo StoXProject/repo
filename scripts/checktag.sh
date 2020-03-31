@@ -5,7 +5,7 @@
 
 PKGVER=$(sed -n "s/Version: *\([^ ]*\)/\1/p" DESCRIPTION)
 PKGNAME=$(sed -n "s/Package: *\([^ ]*\)/\1/p" DESCRIPTION)
-TAG=$PKGNAME-v$PKGVER
+TAG=${PKGNAME}-v${PKGVER}
 
 echo "Looking for tag $TAG"
 
@@ -26,7 +26,7 @@ else
         NUM_TAG=$(git show-ref --tags | grep -F $PKGVER | wc -l)
         NUM_TAG=$((NUM_TAG + 9000))
     else
-        NUM_TAG=$(echo $EXISTING_TAG | sed 's/${PKGNAME}-v//g')
+        NUM_TAG=$(echo $EXISTING_TAG | sed "s/${PKGNAME}-v//g")
     fi
 
     echo "New version is $NUM_TAG"

@@ -37,3 +37,5 @@ addToDrat(){
 }
 
 addToDrat
+
+cd $PKG_REPO

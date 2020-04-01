@@ -6,5 +6,5 @@ Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
 LinkingTo: Rcpp
 Suggests: testthat
 License: LGPL-3
-MD5sum: 9b31fd6bb7a63d592cbac4b4776d53a2
+MD5sum: 318ce0804ff3f294f6b0b69b8becf744
 NeedsCompilation: yes

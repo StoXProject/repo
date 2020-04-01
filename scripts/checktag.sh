@@ -25,11 +25,13 @@ else
         # Find how many development version are there
         NUM_TAG=$(git show-ref --tags | grep -F $PKGVER | wc -l)
         NUM_TAG=$((NUM_TAG + 9000))
+        NEW_VER=${PKGVER}.${NUM_TAG}
     else
-        NUM_TAG=$(echo $EXISTING_TAG | sed "s/${PKGNAME}-v//g")
+        echo "Using existing development tag $EXISTING_TAG"
+        NEW_VER=$( echo "$EXISTING_TAG" | sed "s/${PKGNAME}-v//g")
     fi
 
-    echo "New version is $NUM_TAG"
-    sed -i -e "s/Version: *\([^ ]*\)/Version: ${PKGVER}.${NUM_TAG}/g" DESCRIPTION
+    echo "New version is $NEW_VER"
+    sed -i -e "s/Version: *\([^ ]*\)/Version: ${NEW_VER}/g" DESCRIPTION
 fi
 

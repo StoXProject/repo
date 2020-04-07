@@ -28,11 +28,11 @@ MD5sum: b80dffb6aaa4916bf2401ec502844db9
 NeedsCompilation: yes
 
 Package: RstoxFramework
-Version: 1.2.3.9002
+Version: 1.2.4
 Depends: R (>= 3.6)
 Imports: data.table (>= 1.12.6), geojsonio (>= 0.8.0), jsonlite (>=
-        1.6), sp (>= 1.3.2), RstoxData (>= 0.8.1), RstoxBase (>= 1.2.2)
+        1.6), sp (>= 1.3.2), RstoxData (>= 0.8.2), RstoxBase (>= 1.2.3)
 Suggests: testthat
 License: LGPL-3
-MD5sum: d161c4e8736125bfc9c0b2b44aa3de3c
+MD5sum: 900389abf506c00e46daeaaca1e2c748
 NeedsCompilation: no

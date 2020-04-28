@@ -13,7 +13,7 @@ Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
         sp (>= 1.3.2), RstoxData (>= 0.8.4)
 Suggests: testthat
 License: LGPL-3
-MD5sum: 744c208479fc1f9bee24161377f13508
+MD5sum: 6c4cf3f69f4d21aa557ddcc96fc60f1e
 NeedsCompilation: no
 
 Package: RstoxData

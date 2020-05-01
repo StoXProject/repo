@@ -1,4 +1,8 @@
 #!/bin/bash
+
+# Set path to fix Rtools 4.0 in Appveyor
+PATH=/usr/bin:$PATH
+
 set -o errexit -o nounset
 cd ..
 

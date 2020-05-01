@@ -1,3 +1,9 @@
+Package: RstoxAPI
+Version: 1.1.7.9001
+Depends: R (>= 3.6)
+Imports: devtools, RstoxFramework (>= 1.2.6)
+License: LGPL-3
+
 Package: RstoxBase
 Version: 1.2.6.9001
 Depends: R (>= 3.6)

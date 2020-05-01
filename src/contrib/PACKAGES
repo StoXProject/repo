@@ -34,5 +34,5 @@ Imports: data.table (>= 1.12.6), geojsonio (>= 0.8.0), jsonlite (>=
         1.6), sp (>= 1.3.2), RstoxData (>= 0.8.4), RstoxBase (>= 1.2.6)
 Suggests: testthat
 License: LGPL-3
-MD5sum: 1d7e290a42be7ff9e76864b8146608e9
+MD5sum: e909b1a8087dfeaae422cb2bd7327fca
 NeedsCompilation: no

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "We have $PKG_REPO"
+
 # Set path to fix Rtools 4.0 in Appveyor
 PATH=/usr/bin:$PATH
 
@@ -20,6 +22,8 @@ addToDrat(){
 
   git fetch upstream 2>err.txt
   git checkout gh-pages
+
+  echo "We have $PKG_REPO"
 
   if [ "${DEPLOY_SRC+x}" = x ]; then
     Rscript -e "library(drat); insertPackage('$PKG_REPO/drat/$PKG_TARBALL', \

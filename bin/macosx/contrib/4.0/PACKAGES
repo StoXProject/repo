@@ -1,11 +1,11 @@
 Package: RstoxBase
-Version: 1.2.9
+Version: 1.2.10
 Depends: R (>= 3.6)
 Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
-        sp (>= 1.3.2), RstoxData (== 0.8.10)
+        sp (>= 1.3.2), RstoxData (>= 0.8.10)
 Suggests: testthat
 License: LGPL-3
-MD5sum: 72662bf1fd71e6ef664b01c2f75cfe9e
+MD5sum: 7e585e451fee2c98be3984fef5e64a4c
 
 Package: RstoxData
 Version: 0.8.10

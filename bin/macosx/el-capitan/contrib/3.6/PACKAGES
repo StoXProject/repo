@@ -1,9 +1,9 @@
 Package: RstoxAPI
-Version: 1.1.8.9001
+Version: 1.1.9
 Depends: R (>= 3.6)
 Imports: devtools, RstoxFramework (>= 1.2.7)
 License: LGPL-3
-MD5sum: 5f48cefef790d1f94a4371c85f805b79
+MD5sum: 980bbbbc5ea66d975a9a400482c4b991
 
 Package: RstoxBase
 Version: 1.2.12

@@ -16,6 +16,7 @@ IS_TAG=$(git show-ref --tags $TAG | /usr/bin/cut -d" " -f1)
 
 if [[ -z ${IS_TAG} ||  $HEAD_COMMIT == $IS_TAG ]]; then
     echo "This version is not tagged yet or tagged in the current commit, we can always proceed."
+    export FINAL_TAG=$TAG
 else
     # Find any existing tags
     EXISTING_TAG=$(git tag --points-at $HEAD_COMMIT)
@@ -33,5 +34,8 @@ else
 
     echo "New version is $NEW_VER"
     /usr/bin/sed -i -e "s/Version: *\([^ ]*\)/Version: ${NEW_VER}/g" DESCRIPTION
+
+    export FINAL_TAG=${PKGNAME}-v${NEW_VER}
 fi
 
+echo "Final tag is $FINAL_TAG"

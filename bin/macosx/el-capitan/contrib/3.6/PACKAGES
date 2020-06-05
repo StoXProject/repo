@@ -15,14 +15,14 @@ License: LGPL-3
 MD5sum: d232a43e3c0c27ca8eee9e953ed18467
 
 Package: RstoxData
-Version: 0.8.10.9007
+Version: 0.8.10.9008
 Depends: R (>= 3.5)
 Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
         readr (>= 1.3.1)
 LinkingTo: Rcpp
 Suggests: testthat
 License: LGPL-3
-MD5sum: 4032fd22cfd68558a1e3252463dbf6ca
+MD5sum: f2bf2c5251b362cb83f4a10c323b6207
 
 Package: RstoxFramework
 Version: 1.2.8

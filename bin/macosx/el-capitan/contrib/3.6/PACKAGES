@@ -22,7 +22,7 @@ Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
 LinkingTo: Rcpp
 Suggests: testthat
 License: LGPL-3
-MD5sum: 7dfaa542fd06511bc313572ae15e9788
+MD5sum: fd08f83f3c05c12b76331e34b6fdb3d0
 
 Package: RstoxFramework
 Version: 1.2.8

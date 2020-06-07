@@ -13,8 +13,7 @@ git fetch -f --tags
 
 HEAD_COMMIT=$(git rev-parse HEAD)
 
-IS_TAG=$((git show-ref --verify --quiet --tags $TAG ||
-		echo "")| cut -d" " -f1)
+IS_TAG=$((git show-ref --tags $TAG || echo "")| cut -d" " -f1)
 
 echo "We have: $HEAD_COMMIT : $IS_TAG" 
 

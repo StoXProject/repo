@@ -5,10 +5,10 @@ Imports: devtools, RstoxFramework (>= 1.2.6)
 License: LGPL-3
 
 Package: RstoxBase
-Version: 1.2.11
+Version: 1.2.15.9000
 Depends: R (>= 3.6)
 Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
-        sp (>= 1.3.2), RstoxData (>= 0.8.10)
+        sp (>= 1.3.2), RstoxData (>= 0.8.11)
 Suggests: testthat
 License: LGPL-3
 

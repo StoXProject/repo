@@ -35,4 +35,4 @@
 |12 |RstoxFramework |4.0  |macosx  |mac.binary |1.2.6.9001 |
 |21 |RstoxFramework |4.0  |windows |contrib    |1.2.10     |
 
-Updated on: Wed Jun 17 11:23:05 2020
+Updated on: Wed Jun 17 11:24:20 2020

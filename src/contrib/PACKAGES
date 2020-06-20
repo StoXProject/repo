@@ -7,13 +7,13 @@ MD5sum: 199f3f5543f624fa79afc24830aa0773
 NeedsCompilation: no
 
 Package: RstoxBase
-Version: 1.2.17
+Version: 1.2.18
 Depends: R (>= 3.6)
 Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
-        sp (>= 1.3.2), RstoxData (>= 0.8.13)
+        sp (>= 1.3.2), RstoxData (>= 0.8.15)
 Suggests: testthat
 License: LGPL-3
-MD5sum: cbb9bc703c85c3aff28b0a3186b193e8
+MD5sum: d938a2a51ed1f58f12301f06e30e6ab8
 NeedsCompilation: no
 
 Package: RstoxData

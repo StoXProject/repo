@@ -17,14 +17,14 @@ MD5sum: cbb9bc703c85c3aff28b0a3186b193e8
 NeedsCompilation: no
 
 Package: RstoxData
-Version: 0.8.14
+Version: 0.8.15
 Depends: R (>= 3.6)
 Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
         readr (>= 1.3.1)
 LinkingTo: Rcpp
 Suggests: testthat
 License: LGPL-3
-MD5sum: ba10e2cf77a3fa6a4cb0678a17831be2
+MD5sum: 433717d398ff09037960d5ebb2d6e452
 NeedsCompilation: yes
 
 Package: RstoxFramework

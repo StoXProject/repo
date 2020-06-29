@@ -3,7 +3,7 @@ Version: 1.1.10
 Depends: R (>= 3.6)
 Imports: devtools, RstoxFramework (>= 1.2.12)
 License: LGPL-3
-MD5sum: bed46e04abe1db965513c6997196c063
+MD5sum: 78d53b6487acba6eee4c5fabcf5d3577
 
 Package: RstoxBase
 Version: 1.2.19

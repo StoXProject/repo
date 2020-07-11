@@ -1,7 +1,7 @@
 # Stox Project Package Repository
 
 
-Updated on: Sat Jul 11 23:01:53 2020
+Updated on: Sat Jul 11 23:03:38 2020
 ## Source Packages
 
 |Package        |Version     |
@@ -45,6 +45,7 @@ Updated on: Sat Jul 11 23:01:53 2020
 |RstoxBase      |1.2.2.9001  |
 |RstoxBase      |1.2.2.9002  |
 |RstoxBase      |1.2.2.9002  |
+|RstoxBase      |1.2.20      |
 |RstoxBase      |1.2.3       |
 |RstoxBase      |1.2.3       |
 |RstoxBase      |1.2.4       |

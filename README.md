@@ -1,7 +1,7 @@
 # Stox Project Package Repository
 
 
-Updated on: Sat Jul 11 20:45:13 2020
+Updated on: Sat Jul 11 20:46:03 2020
 ## Source Packages
 
 |Package        |Version     |
@@ -142,6 +142,8 @@ Updated on: Sat Jul 11 20:45:13 2020
 |RstoxAPI       |4.0  |macosx  |1.1.8       |
 |RstoxAPI       |4.0  |macosx  |1.1.9       |
 |RstoxAPI       |4.0  |windows |1.1.10      |
+|RstoxAPI       |4.0  |windows |1.1.7.9001  |
+|RstoxAPI       |4.0  |windows |1.1.9.9000  |
 |RstoxBase      |3.6  |macosx  |1.2.10      |
 |RstoxBase      |3.6  |macosx  |1.2.11.9001 |
 |RstoxBase      |3.6  |macosx  |1.2.11      |
@@ -176,7 +178,14 @@ Updated on: Sat Jul 11 20:45:13 2020
 |RstoxBase      |4.0  |macosx  |1.2.19      |
 |RstoxBase      |4.0  |macosx  |1.2.8       |
 |RstoxBase      |4.0  |macosx  |1.2.9       |
+|RstoxBase      |4.0  |windows |1.2.11      |
+|RstoxBase      |4.0  |windows |1.2.15.9000 |
+|RstoxBase      |4.0  |windows |1.2.16      |
+|RstoxBase      |4.0  |windows |1.2.17      |
+|RstoxBase      |4.0  |windows |1.2.18      |
 |RstoxBase      |4.0  |windows |1.2.19      |
+|RstoxBase      |4.0  |windows |1.2.6.9001  |
+|RstoxBase      |4.0  |windows |1.2.7       |
 |RstoxData      |3.5  |macosx  |0.8.3       |
 |RstoxData      |3.5  |windows |0.8.3       |
 |RstoxData      |3.6  |macosx  |0.8.0.9002  |
@@ -239,7 +248,24 @@ Updated on: Sat Jul 11 20:45:13 2020
 |RstoxData      |4.0  |macosx  |0.8.8       |
 |RstoxData      |4.0  |macosx  |0.8.9       |
 |RstoxData      |4.0  |macosx  |1.0.1       |
+|RstoxData      |4.0  |windows |0.8.10.9002 |
+|RstoxData      |4.0  |windows |0.8.10.9016 |
+|RstoxData      |4.0  |windows |0.8.10.9017 |
+|RstoxData      |4.0  |windows |0.8.10.9018 |
+|RstoxData      |4.0  |windows |0.8.10      |
+|RstoxData      |4.0  |windows |0.8.11.9000 |
+|RstoxData      |4.0  |windows |0.8.11      |
+|RstoxData      |4.0  |windows |0.8.12      |
+|RstoxData      |4.0  |windows |0.8.13      |
+|RstoxData      |4.0  |windows |0.8.14      |
 |RstoxData      |4.0  |windows |0.8.15      |
+|RstoxData      |4.0  |windows |0.8.5       |
+|RstoxData      |4.0  |windows |0.8.6.9001  |
+|RstoxData      |4.0  |windows |0.8.6       |
+|RstoxData      |4.0  |windows |0.8.7       |
+|RstoxData      |4.0  |windows |0.8.8       |
+|RstoxData      |4.0  |windows |0.8.9       |
+|RstoxData      |4.0  |windows |1.0.1       |
 |RstoxFramework |3.6  |macosx  |1.0.1       |
 |RstoxFramework |3.6  |macosx  |1.2.10      |
 |RstoxFramework |3.6  |macosx  |1.2.11      |
@@ -258,4 +284,9 @@ Updated on: Sat Jul 11 20:45:13 2020
 |RstoxFramework |4.0  |macosx  |1.2.7       |
 |RstoxFramework |4.0  |macosx  |1.2.8       |
 |RstoxFramework |4.0  |macosx  |1.2.9       |
+|RstoxFramework |4.0  |windows |1.2.10      |
+|RstoxFramework |4.0  |windows |1.2.11      |
 |RstoxFramework |4.0  |windows |1.2.12      |
+|RstoxFramework |4.0  |windows |1.2.6.9001  |
+|RstoxFramework |4.0  |windows |1.2.7       |
+|RstoxFramework |4.0  |windows |1.2.9       |

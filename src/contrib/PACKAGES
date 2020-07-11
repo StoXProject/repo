@@ -1,9 +1,305 @@
 Package: RstoxAPI
+Version: 1.1.0.9001
+Depends: R (>= 3.6)
+Imports: RstoxFramework (>= 1.2.0), devtools
+License: LGPL-3
+MD5sum: 275533b65cbe7d64c6c87e430fd3acf0
+NeedsCompilation: no
+
+Package: RstoxAPI
+Version: 1.1.0.9001
+Depends: R (>= 3.6)
+Imports: RstoxFramework (>= 1.2.0), devtools
+License: LGPL-3
+MD5sum: 8f53f48cb4b7c13bce858d73734bfb1b
+NeedsCompilation: no
+
+Package: RstoxAPI
+Version: 1.1.1
+Depends: R (>= 3.6)
+Imports: devtools, RstoxFramework (>= 1.2.2)
+License: LGPL-3
+MD5sum: 4255237398e21c08a8ab800d0cec2fa9
+NeedsCompilation: no
+
+Package: RstoxAPI
+Version: 1.1.1
+Depends: R (>= 3.6)
+Imports: devtools, RstoxFramework (>= 1.2.2)
+License: LGPL-3
+MD5sum: 6cd043dcfe5ab2c1c995f8b8e1be5cb9
+NeedsCompilation: no
+
+Package: RstoxAPI
 Version: 1.1.10
 Depends: R (>= 3.6)
 Imports: devtools, RstoxFramework (>= 1.2.12)
 License: LGPL-3
 MD5sum: 1aa332a03801782261113d97dc8b5c74
+NeedsCompilation: no
+
+Package: RstoxAPI
+Version: 1.1.2
+Depends: R (>= 3.6)
+Imports: devtools, RstoxFramework (>= 1.2.3)
+License: LGPL-3
+MD5sum: 76f991888593682d2960ea9d093675d5
+NeedsCompilation: no
+
+Package: RstoxAPI
+Version: 1.1.2.9001
+Depends: R (>= 3.6)
+Imports: devtools, RstoxFramework (>= 1.2.3)
+License: LGPL-3
+MD5sum: 25ef6d779833fcebe468865d80788262
+NeedsCompilation: no
+
+Package: RstoxAPI
+Version: 1.1.2.9001
+Depends: R (>= 3.6)
+Imports: devtools, RstoxFramework (>= 1.2.3)
+License: LGPL-3
+MD5sum: 764de1137edceecfcb337570fc4d450d
+NeedsCompilation: no
+
+Package: RstoxAPI
+Version: 1.1.2
+Depends: R (>= 3.6)
+Imports: devtools, RstoxFramework (>= 1.2.3)
+License: LGPL-3
+MD5sum: 5a14018f46d69387ff3546d85ae3c46e
+NeedsCompilation: no
+
+Package: RstoxAPI
+Version: 1.1.6
+Depends: R (>= 3.6)
+Imports: devtools, RstoxFramework (>= 1.2.4)
+License: LGPL-3
+MD5sum: 85788c00b21f45379727c3e1efec96aa
+NeedsCompilation: no
+
+Package: RstoxAPI
+Version: 1.1.6
+Depends: R (>= 3.6)
+Imports: devtools, RstoxFramework (>= 1.2.4)
+License: LGPL-3
+MD5sum: 29d332d0836364973f9cb240b969978b
+NeedsCompilation: no
+
+Package: RstoxAPI
+Version: 1.1.7
+Depends: R (>= 3.6)
+Imports: devtools, RstoxFramework (>= 1.2.6)
+License: LGPL-3
+MD5sum: a1f17f9aba325610a75edf8423d0c53d
+NeedsCompilation: no
+
+Package: RstoxAPI
+Version: 1.1.7
+Depends: R (>= 3.6)
+Imports: devtools, RstoxFramework (>= 1.2.6)
+License: LGPL-3
+MD5sum: 569ddd931392092e1797e77c06c9db62
+NeedsCompilation: no
+
+Package: RstoxAPI
+Version: 1.1.8
+Depends: R (>= 3.6)
+Imports: devtools, RstoxFramework (>= 1.2.7)
+License: LGPL-3
+MD5sum: cc0080f29b8ba920199f358677e1011d
+NeedsCompilation: no
+
+Package: RstoxAPI
+Version: 1.1.8
+Depends: R (>= 3.6)
+Imports: devtools, RstoxFramework (>= 1.2.7)
+License: LGPL-3
+MD5sum: 82c321d7bbc72d2af02596526e2ca87e
+NeedsCompilation: no
+
+Package: RstoxAPI
+Version: 1.1.9
+Depends: R (>= 3.6)
+Imports: devtools, RstoxFramework (>= 1.2.7)
+License: LGPL-3
+MD5sum: 199f3f5543f624fa79afc24830aa0773
+NeedsCompilation: no
+
+Package: RstoxAPI
+Version: 1.1.9.9000
+Depends: R (>= 3.6)
+Imports: devtools, RstoxFramework (>= 1.2.7)
+License: LGPL-3
+MD5sum: 2632cacdaabde34b452d3a52cc35b13a
+NeedsCompilation: no
+
+Package: RstoxAPI
+Version: 1.1.9
+Depends: R (>= 3.6)
+Imports: devtools, RstoxFramework (>= 1.2.7)
+License: LGPL-3
+MD5sum: 349234c91ee59e7f16230b971632047b
+NeedsCompilation: no
+
+Package: RstoxBase
+Version: 1.2.10
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (>= 0.8.10)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 0bd886f25301ac138c0fe3fcc5a648e5
+NeedsCompilation: no
+
+Package: RstoxBase
+Version: 1.2.10
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (>= 0.8.10)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 696e590ecbc40a3cf646b506527d0f37
+NeedsCompilation: no
+
+Package: RstoxBase
+Version: 1.2.11
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (>= 0.8.10)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 65ad61d3874e0cc7fe119bf5eb2643eb
+NeedsCompilation: no
+
+Package: RstoxBase
+Version: 1.2.11
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (>= 0.8.10)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 12ba0f5e3dab0dee275fa05548484283
+NeedsCompilation: no
+
+Package: RstoxBase
+Version: 1.2.12
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (>= 0.8.10)
+Suggests: testthat
+License: LGPL-3
+MD5sum: bd5a6cdcf5c6962ea44598a51b018bce
+NeedsCompilation: no
+
+Package: RstoxBase
+Version: 1.2.12
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (>= 0.8.10)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 9c259f6fa4a73995742025c69c645196
+NeedsCompilation: no
+
+Package: RstoxBase
+Version: 1.2.13
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (>= 0.8.10)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 6e66070f302b10f22a1fc083e0572a87
+NeedsCompilation: no
+
+Package: RstoxBase
+Version: 1.2.13
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (>= 0.8.10)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 3d9c02f0624895a739ca1f3a8aa1085a
+NeedsCompilation: no
+
+Package: RstoxBase
+Version: 1.2.14
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (>= 0.8.11)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 217cf02e04ed4582a6f160480c1ecec5
+NeedsCompilation: no
+
+Package: RstoxBase
+Version: 1.2.14
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (>= 0.8.11)
+Suggests: testthat
+License: LGPL-3
+MD5sum: d316657b652ed0062028e9d1ee04ef04
+NeedsCompilation: no
+
+Package: RstoxBase
+Version: 1.2.15
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (>= 0.8.11)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 9fb3b80b522a0796a5edb71f6277e0eb
+NeedsCompilation: no
+
+Package: RstoxBase
+Version: 1.2.15.9000
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (>= 0.8.11)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 37690cd18fbc40a3dd6f11e5dd1690c4
+NeedsCompilation: no
+
+Package: RstoxBase
+Version: 1.2.15
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (>= 0.8.11)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 9c7e118c706ac0b8c762c20bc72be7f9
+NeedsCompilation: no
+
+Package: RstoxBase
+Version: 1.2.16
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (>= 0.8.12)
+Suggests: testthat
+License: LGPL-3
+MD5sum: fbf46c4684da00989d968a7428ae2367
+NeedsCompilation: no
+
+Package: RstoxBase
+Version: 1.2.17
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (>= 0.8.13)
+Suggests: testthat
+License: LGPL-3
+MD5sum: cbb9bc703c85c3aff28b0a3186b193e8
+NeedsCompilation: no
+
+Package: RstoxBase
+Version: 1.2.18
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (>= 0.8.15)
+Suggests: testthat
+License: LGPL-3
+MD5sum: d938a2a51ed1f58f12301f06e30e6ab8
 NeedsCompilation: no
 
 Package: RstoxBase
@@ -16,6 +312,439 @@ License: LGPL-3
 MD5sum: 9cd7832d86e34df39cc2a5076f9b7358
 NeedsCompilation: no
 
+Package: RstoxBase
+Version: 1.2.2.9001
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (>= 0.8.1)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 049c52545c618b231520004c65818a1c
+NeedsCompilation: no
+
+Package: RstoxBase
+Version: 1.2.2.9001
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (>= 0.8.1)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 026efa278ab8bbb67c9d1e9fa812162a
+NeedsCompilation: no
+
+Package: RstoxBase
+Version: 1.2.2.9002
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (>= 0.8.1)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 305fc506beb8d6c5d72aa3c7a6a907db
+NeedsCompilation: no
+
+Package: RstoxBase
+Version: 1.2.2.9002
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (>= 0.8.1)
+Suggests: testthat
+License: LGPL-3
+MD5sum: b50b61392c415139f3f471453f7530df
+NeedsCompilation: no
+
+Package: RstoxBase
+Version: 1.2.3
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (>= 0.8.2)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 07b774cf5cf0e9c823f15b455d43a813
+NeedsCompilation: no
+
+Package: RstoxBase
+Version: 1.2.3
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (>= 0.8.2)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 29b2c44e6a9e9f2f5821deab8c0d0c30
+NeedsCompilation: no
+
+Package: RstoxBase
+Version: 1.2.4
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (>= 0.8.3)
+Suggests: testthat
+License: LGPL-3
+MD5sum: dc3d2fcc93802d2d0915ac8d74ee9faf
+NeedsCompilation: no
+
+Package: RstoxBase
+Version: 1.2.4
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (>= 0.8.3)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 1542b37c66de1423037c2342c6d1414d
+NeedsCompilation: no
+
+Package: RstoxBase
+Version: 1.2.5
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (>= 0.8.4)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 6c4cf3f69f4d21aa557ddcc96fc60f1e
+NeedsCompilation: no
+
+Package: RstoxBase
+Version: 1.2.5
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (>= 0.8.4)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 744c208479fc1f9bee24161377f13508
+NeedsCompilation: no
+
+Package: RstoxBase
+Version: 1.2.6
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (>= 0.8.4)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 3f0455e000606f10dfd928bea019abbc
+NeedsCompilation: no
+
+Package: RstoxBase
+Version: 1.2.6
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (>= 0.8.4)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 4c1217401d6a90fce216f065f076c6d9
+NeedsCompilation: no
+
+Package: RstoxBase
+Version: 1.2.7
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (>= 0.8.7)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 85321bc4f5e5904d9449557f82d57a19
+NeedsCompilation: no
+
+Package: RstoxBase
+Version: 1.2.7
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (>= 0.8.7)
+Suggests: testthat
+License: LGPL-3
+MD5sum: c820ad91255ea5fe72652cef36b533aa
+NeedsCompilation: no
+
+Package: RstoxBase
+Version: 1.2.8
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (>= 0.8.9)
+Suggests: testthat
+License: LGPL-3
+MD5sum: d746d71c3050493c1e3845565d8893ee
+NeedsCompilation: no
+
+Package: RstoxBase
+Version: 1.2.8
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (>= 0.8.9)
+Suggests: testthat
+License: LGPL-3
+MD5sum: a1a2d5d004bbf84f97799a8d2f0e61fe
+NeedsCompilation: no
+
+Package: RstoxBase
+Version: 1.2.9
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (== 0.8.10)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 97168010175c9bb5b0807e04b5f88b73
+NeedsCompilation: no
+
+Package: RstoxBase
+Version: 1.2.9
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (== 0.8.10)
+Suggests: testthat
+License: LGPL-3
+MD5sum: a5eb3a69469764e1d7ced83dbc3a9d2b
+NeedsCompilation: no
+
+Package: RstoxData
+Version: 0.8.0.9002
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: 318ce0804ff3f294f6b0b69b8becf744
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.0.9002
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: e43244e8f648f01be737932ceb0209f5
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.1
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: d1420ba5d4e386e8c6b1f57494c1d157
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.1
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: 8d6f7cc24a7eba8d61d2880704ca906d
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.10
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: b5170f20702c00398696be948d8578f2
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.10.9005
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: 470af7758007770059739982a124f43b
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.10.9006
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: 4ffecd4c9ebd0a0e2aabd22a46173c61
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.10.9007
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: 987a522b6b645663277dad2b8510c43e
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.10.9008
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: 3cc9dd8965e8d59a831ec8ed98052b7a
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.10.9009
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: 52523cdbbc3bbbfb0aa35579f03653c0
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.10.9010
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: e15b0130bea44b9a452bcc8c2772f955
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.10.9012
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: 8e308f6dd19e741f454e36181aa0d4ae
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.10.9013
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: c8230dabc776d0fd0def30d6827525d4
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.10.9014
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: bccbfe7d29bc8f3f0240797442e386fa
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.10.9016
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: aacbb94946d776f47384543c2b711c5e
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.10.9017
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: 523321ff279f368a58f22746be962c88
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.10.9018
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: 43b9b824d24a3b601351fe14e5f6cedf
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.10
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: 36d2bdadec6b7d2c7cfa5c050b699219
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.11.9000
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: 2bc4ca6a99dbdedced0aa993ef4cdb3d
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.11
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: 361c35a5c0bcb80b3ccad7094094b827
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.12
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: 9b45688e8bc987375ba05d1f50c73477
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.13
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: 2950c39375ebd7eb343962d838cca6a8
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.14
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: ba10e2cf77a3fa6a4cb0678a17831be2
+NeedsCompilation: yes
+
 Package: RstoxData
 Version: 0.8.15
 Depends: R (>= 3.6)
@@ -27,6 +756,237 @@ License: LGPL-3
 MD5sum: 433717d398ff09037960d5ebb2d6e452
 NeedsCompilation: yes
 
+Package: RstoxData
+Version: 0.8.2
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: b80dffb6aaa4916bf2401ec502844db9
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.2
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: e25d20807b253fc947868aeea48b8ba8
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.3
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: a1ed25217ffda97b4d9c98f4c3084e3b
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.3
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: de16d92a3edef8ed80c68b61209ea1d6
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.4
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: 1c907515426ea91e268cd4344d6660a9
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.4
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: fb22f433436df12999dd41dca8e9b5e6
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.5
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: 8fdd3b05e9005df6317380b1cf2ef79c
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.5
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: 4a91dd08bffdb4e80219e1fab33e05d1
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.6
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp, xml2 (>= 1.2.2), readr (>=
+        1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: 2beb17521d42efb88a0fde6c31da90d5
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.6
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp, xml2 (>= 1.2.2), readr (>=
+        1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: f58c83ce6ebb4e10ebcd362aa28c02af
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.7
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: 359fc751f7f618a852e29a9d2c62897c
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.7
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: 78a64f03e78c4fe6db1efd37b2494945
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.8
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: baef690d9d23d95b5e46d396d328ed18
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.8
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: 0065a1c4c2ec537a7f413ca83c86c741
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.9
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: 4e5679fa74e28430016cc6ff263dae62
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 0.8.9
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: db9507de0baa8b061a857d6f16725fca
+NeedsCompilation: yes
+
+Package: RstoxData
+Version: 1.0.1
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2),
+        readr (>= 1.3.1)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: f96f69d0371113dc7023b83412b467c6
+NeedsCompilation: yes
+
+Package: RstoxFramework
+Version: 1.0.1
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.6), geojsonio (>= 0.8.0), jsonlite (>=
+        1.6), sp (>= 1.3.2), xml2 (>= 1.2.2), RstoxData (>= 0.0.1),
+        RstoxBase (>= 0.0.1)
+Suggests: testthat
+License: LGPL-3
+MD5sum: de9ffc3429473db1a3381990ca0ec2a6
+NeedsCompilation: no
+
+Package: RstoxFramework
+Version: 1.0.1
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.6), geojsonio (>= 0.8.0), jsonlite (>=
+        1.6), sp (>= 1.3.2), xml2 (>= 1.2.2), RstoxData (>= 0.0.1),
+        RstoxBase (>= 0.0.1)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 216df768e564f9b02532dce51f12c819
+NeedsCompilation: no
+
+Package: RstoxFramework
+Version: 1.2.10
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.6), geojsonio (>= 0.8.0), jsonlite (>=
+        1.6), jsonvalidate (>= 1.1.0), sp (>= 1.3.2), RstoxData (>=
+        0.8.13), RstoxBase (>= 1.2.16)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 983dd906a6b937512f96aa155cd3a655
+NeedsCompilation: no
+
+Package: RstoxFramework
+Version: 1.2.11
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.6), geojsonio (>= 0.8.0), jsonlite (>=
+        1.6), jsonvalidate (>= 1.1.0), sp (>= 1.3.2), xml2 (>= 1.2.2),
+        RstoxData (>= 0.8.15), RstoxBase (>= 1.2.18)
+Suggests: testthat
+License: LGPL-3
+MD5sum: f0bbaf3235029da61890b72b38461fe8
+NeedsCompilation: no
+
 Package: RstoxFramework
 Version: 1.2.12
 Depends: R (>= 3.6)
@@ -36,4 +996,159 @@ Imports: data.table (>= 1.12.6), geojsonio (>= 0.8.0), jsonlite (>=
 Suggests: testthat
 License: LGPL-3
 MD5sum: cebf225c3ffa40fb88852c1477888741
+NeedsCompilation: no
+
+Package: RstoxFramework
+Version: 1.2.3.9001
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.6), geojsonio (>= 0.8.0), jsonlite (>=
+        1.6), sp (>= 1.3.2), RstoxData (>= 0.8.1), RstoxBase (>= 1.2.2)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 6d495b29ebe6719e3e2bc3964833f76f
+NeedsCompilation: no
+
+Package: RstoxFramework
+Version: 1.2.3.9001
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.6), geojsonio (>= 0.8.0), jsonlite (>=
+        1.6), sp (>= 1.3.2), RstoxData (>= 0.8.1), RstoxBase (>= 1.2.2)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 375e62c9fe7c9e94f6b21952c1715d81
+NeedsCompilation: no
+
+Package: RstoxFramework
+Version: 1.2.3.9002
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.6), geojsonio (>= 0.8.0), jsonlite (>=
+        1.6), sp (>= 1.3.2), RstoxData (>= 0.8.1), RstoxBase (>= 1.2.2)
+Suggests: testthat
+License: LGPL-3
+MD5sum: d161c4e8736125bfc9c0b2b44aa3de3c
+NeedsCompilation: no
+
+Package: RstoxFramework
+Version: 1.2.3.9002
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.6), geojsonio (>= 0.8.0), jsonlite (>=
+        1.6), sp (>= 1.3.2), RstoxData (>= 0.8.1), RstoxBase (>= 1.2.2)
+Suggests: testthat
+License: LGPL-3
+MD5sum: afa2be546bc0d937c3e0044f8a3d96bd
+NeedsCompilation: no
+
+Package: RstoxFramework
+Version: 1.2.4
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.6), geojsonio (>= 0.8.0), jsonlite (>=
+        1.6), sp (>= 1.3.2), RstoxData (>= 0.8.2), RstoxBase (>= 1.2.3)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 8db63625fc0080ea4342936c816189b4
+NeedsCompilation: no
+
+Package: RstoxFramework
+Version: 1.2.4
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.6), geojsonio (>= 0.8.0), jsonlite (>=
+        1.6), sp (>= 1.3.2), RstoxData (>= 0.8.2), RstoxBase (>= 1.2.3)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 900389abf506c00e46daeaaca1e2c748
+NeedsCompilation: no
+
+Package: RstoxFramework
+Version: 1.2.5
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.6), geojsonio (>= 0.8.0), jsonlite (>=
+        1.6), sp (>= 1.3.2), RstoxData (>= 0.8.2), RstoxBase (>= 1.2.3)
+Suggests: testthat
+License: LGPL-3
+MD5sum: fbb9c6796615a1f480247efed8c26bd7
+NeedsCompilation: no
+
+Package: RstoxFramework
+Version: 1.2.5
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.6), geojsonio (>= 0.8.0), jsonlite (>=
+        1.6), sp (>= 1.3.2), RstoxData (>= 0.8.2), RstoxBase (>= 1.2.3)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 9395eeb47dbe6394551358adc3126b25
+NeedsCompilation: no
+
+Package: RstoxFramework
+Version: 1.2.6
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.6), geojsonio (>= 0.8.0), jsonlite (>=
+        1.6), sp (>= 1.3.2), RstoxData (>= 0.8.4), RstoxBase (>= 1.2.6)
+Suggests: testthat
+License: LGPL-3
+MD5sum: e909b1a8087dfeaae422cb2bd7327fca
+NeedsCompilation: no
+
+Package: RstoxFramework
+Version: 1.2.6
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.6), geojsonio (>= 0.8.0), jsonlite (>=
+        1.6), sp (>= 1.3.2), RstoxData (>= 0.8.4), RstoxBase (>= 1.2.6)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 88617547690d1469bd9b0a93838c2878
+NeedsCompilation: no
+
+Package: RstoxFramework
+Version: 1.2.7
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.6), geojsonio (>= 0.8.0), jsonlite (>=
+        1.6), jsonvalidate (>= 1.1.0), sp (>= 1.3.2), fst (>= 0.9.2),
+        RstoxData (>= 0.8.10), RstoxBase (>= 1.2.11)
+Suggests: testthat
+License: LGPL-3
+MD5sum: f9c7cccf675f83a13bdb21e0859639f5
+NeedsCompilation: no
+
+Package: RstoxFramework
+Version: 1.2.7
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.6), geojsonio (>= 0.8.0), jsonlite (>=
+        1.6), jsonvalidate (>= 1.1.0), sp (>= 1.3.2), fst (>= 0.9.2),
+        RstoxData (>= 0.8.10), RstoxBase (>= 1.2.11)
+Suggests: testthat
+License: LGPL-3
+MD5sum: b73b63bd218c69bae97b0a77548dc8da
+NeedsCompilation: no
+
+Package: RstoxFramework
+Version: 1.2.8
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.6), geojsonio (>= 0.8.0), jsonlite (>=
+        1.6), jsonvalidate (>= 1.1.0), sp (>= 1.3.2), fst (>= 0.9.2),
+        RstoxData (>= 0.8.10), RstoxBase (>= 1.2.11)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 265095587f0da482fcefca831a0b955f
+NeedsCompilation: no
+
+Package: RstoxFramework
+Version: 1.2.8
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.6), geojsonio (>= 0.8.0), jsonlite (>=
+        1.6), jsonvalidate (>= 1.1.0), sp (>= 1.3.2), fst (>= 0.9.2),
+        RstoxData (>= 0.8.10), RstoxBase (>= 1.2.11)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 4d18bd3a0f4fdc2d71fe6796aa41ae04
+NeedsCompilation: no
+
+Package: RstoxFramework
+Version: 1.2.9
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.6), geojsonio (>= 0.8.0), jsonlite (>=
+        1.6), jsonvalidate (>= 1.1.0), sp (>= 1.3.2), fst (>= 0.9.2),
+        RstoxData (>= 0.8.10), RstoxBase (>= 1.2.10)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 22fcdfd66df4d0aab10243c38b9f6f4c
 NeedsCompilation: no

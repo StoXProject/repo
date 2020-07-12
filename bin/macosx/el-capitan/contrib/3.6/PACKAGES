@@ -606,6 +606,16 @@ License: LGPL-3
 MD5sum: 31da1476acfbc40d83363f08b023e9d7
 
 Package: RstoxFramework
+Version: 1.2.13
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.6), geojsonio (>= 0.8.0), jsonlite (>=
+        1.6), jsonvalidate (>= 1.1.0), sp (>= 1.3.2), xml2 (>= 1.2.2),
+        RstoxData (>= 0.8.15), RstoxBase (>= 1.2.19)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 934dc7a4986a878079651cf17b499d72
+
+Package: RstoxFramework
 Version: 1.2.3.9002
 Depends: R (>= 3.6)
 Imports: data.table (>= 1.12.6), geojsonio (>= 0.8.0), jsonlite (>=

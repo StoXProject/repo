@@ -7,6 +7,11 @@ install.packages("knitr", repos="https://cran.r-project.org");
 library(knitr);
 
 m <- read.dcf("src/contrib/PACKAGES");
+if( nrow(m) > 1 ) {
+        m <- m[order(m[, "Package"], numeric_version(m[, "Version"])), ];
+        m <- m[cumsum(table(m[, "Package"])),];
+};
+
 srcTable <- knitr::kable(m[,c("Package","Version")]);
 
 
@@ -16,6 +21,11 @@ f1 <- function(pkgfilename) {
         os <- tail(head(tmp, 2), 1);
 
         m <- read.dcf(pkgfilename);
+        if( nrow(m) > 1 ) {
+            m <- m[order(m[, "Package"], numeric_version(m[, "Version"])), ];
+            m <- m[cumsum(table(m[, "Package"])),];
+        };
+
         m <- cbind(m, RVer=ver, OS=os);
         return(m[,c("Package", "RVer", "OS", "Version")]);
 };

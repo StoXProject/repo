@@ -479,7 +479,7 @@ Imports: data.table (>= 1.12.6), geojsonio (>= 0.8.0), jsonlite (>=
         RstoxData (>= 0.8.15), RstoxBase (>= 1.2.19)
 Suggests: testthat
 License: LGPL-3
-MD5sum: 31f654b473b5b2aa560069a708642878
+MD5sum: c77b9025cec9eb3faee493b45067ab54
 
 Package: RstoxFramework
 Version: 1.2.7

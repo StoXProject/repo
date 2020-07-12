@@ -1,7 +1,7 @@
 # Stox Project Package Repository
 
 
-Updated on: Sun Jul 12 06:54:01 2020
+Updated on: Sun Jul 12 12:00:10 2020
 ## Source Packages
 
 |Package        |Version     |

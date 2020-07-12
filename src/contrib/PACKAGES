@@ -1016,7 +1016,7 @@ Imports: data.table (>= 1.12.6), geojsonio (>= 0.8.0), jsonlite (>=
         RstoxData (>= 0.8.15), RstoxBase (>= 1.2.19)
 Suggests: testthat
 License: LGPL-3
-MD5sum: fe541a56acccfb84965b36b14c94cada
+MD5sum: 8a35659c2456ef01ffcf53fadb67ecb9
 NeedsCompilation: no
 
 Package: RstoxFramework

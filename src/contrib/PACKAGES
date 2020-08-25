@@ -403,6 +403,16 @@ MD5sum: 9e649ca998ee09de84d1fa67d6eb3cb5
 NeedsCompilation: no
 
 Package: RstoxBase
+Version: 1.2.23
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (>= 1.0.4)
+Suggests: testthat
+License: LGPL-3
+MD5sum: d98116ee66b37eca976d8349896fc007
+NeedsCompilation: no
+
+Package: RstoxBase
 Version: 1.2.3
 Depends: R (>= 3.6)
 Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),

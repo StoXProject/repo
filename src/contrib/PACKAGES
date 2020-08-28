@@ -1222,6 +1222,17 @@ MD5sum: c9a79b75403037494bac5f56f27b7987
 NeedsCompilation: no
 
 Package: RstoxFramework
+Version: 1.2.18
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.6), geojsonio (>= 0.8.0), jsonlite (>=
+        1.6), jsonvalidate (>= 1.1.0), sp (>= 1.3.2), xml2 (>= 1.2.2),
+        RstoxData (>= 1.0.5), RstoxBase (>= 1.2.24)
+Suggests: testthat
+License: LGPL-3
+MD5sum: b1793b64e237e894e05bb77e02f2e06d
+NeedsCompilation: no
+
+Package: RstoxFramework
 Version: 1.2.3.9001
 Depends: R (>= 3.6)
 Imports: data.table (>= 1.12.6), geojsonio (>= 0.8.0), jsonlite (>=

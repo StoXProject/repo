@@ -1,13 +1,13 @@
 # Stox Project Package Repository
 
 
-Updated on: Fri Sep  4 11:29:56 2020
+Updated on: Fri Sep  4 11:30:35 2020
 ## Source Packages
 
 |Package        |Version |
 |:--------------|:-------|
 |RstoxAPI       |1.1.10  |
-|RstoxBase      |1.2.26  |
+|RstoxBase      |1.2.27  |
 |RstoxData      |1.0.8   |
 |RstoxFramework |1.2.19  |
 

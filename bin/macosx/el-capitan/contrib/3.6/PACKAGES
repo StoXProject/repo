@@ -337,6 +337,15 @@ License: LGPL-3
 MD5sum: dd08c60b09b6102bad8741e93e62e9f6
 
 Package: RstoxBase
+Version: 1.2.32
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),
+        sp (>= 1.3.2), RstoxData (>= 1.0.12)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 0126252292057ddfd84db7840b90a05c
+
+Package: RstoxBase
 Version: 1.2.4
 Depends: R (>= 3.6)
 Imports: data.table (>= 1.10.4-3), rgdal (>= 1.4.7), rgeos (>= 0.5.2),

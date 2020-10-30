@@ -11,6 +11,12 @@ Imports: devtools, RstoxFramework (>= 1.2.12)
 License: LGPL-3
 
 Package: RstoxAPI
+Version: 1.1.11
+Depends: R (>= 3.6)
+Imports: devtools, data.table (>= 1.10.4-3), RstoxFramework (>= 1.2.25)
+License: LGPL-3
+
+Package: RstoxAPI
 Version: 1.1.2.9001
 Depends: R (>= 3.6)
 Imports: devtools, RstoxFramework (>= 1.2.3)

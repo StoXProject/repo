@@ -6,6 +6,13 @@ License: LGPL-3
 MD5sum: 93796fc3ee5bd056ee3924f8eb51d245
 
 Package: RstoxAPI
+Version: 1.1.11
+Depends: R (>= 3.6)
+Imports: devtools, data.table (>= 1.10.4-3), RstoxFramework (>= 1.2.25)
+License: LGPL-3
+MD5sum: d89aa7adcca3d0fd86596c6ab438cba3
+
+Package: RstoxAPI
 Version: 1.1.8.9001
 Depends: R (>= 3.6)
 Imports: devtools, RstoxFramework (>= 1.2.7)

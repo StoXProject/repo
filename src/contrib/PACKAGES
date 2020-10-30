@@ -39,6 +39,14 @@ MD5sum: 1aa332a03801782261113d97dc8b5c74
 NeedsCompilation: no
 
 Package: RstoxAPI
+Version: 1.1.11
+Depends: R (>= 3.6)
+Imports: devtools, data.table (>= 1.10.4-3), RstoxFramework (>= 1.2.25)
+License: LGPL-3
+MD5sum: 6cc43b9fa1d050459bb132077cd97884
+NeedsCompilation: no
+
+Package: RstoxAPI
 Version: 1.1.2
 Depends: R (>= 3.6)
 Imports: devtools, RstoxFramework (>= 1.2.3)

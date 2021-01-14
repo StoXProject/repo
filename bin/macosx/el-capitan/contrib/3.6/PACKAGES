@@ -1299,7 +1299,7 @@ Imports: data.table (>= 1.12.6), geojsonsf (>= 2.0.0), jsonlite (>=
         RstoxBase (>= 1.2.41)
 Suggests: testthat
 License: LGPL-3
-MD5sum: d945257c1937f3abc2433e7188b8fd15
+MD5sum: b3d9e82e2c1ed6f873c18f52b6c9d063
 
 Package: RstoxFramework
 Version: 1.2.4

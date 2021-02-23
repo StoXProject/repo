@@ -1630,6 +1630,16 @@ License: LGPL-3
 MD5sum: 1426a04efd4df2da9247626a7f376f07
 NeedsCompilation: yes
 
+Package: RstoxData
+Version: 1.1.1
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: aeb01b9836e3ec1e76ee58c692e10743
+NeedsCompilation: yes
+
 Package: RstoxFramework
 Version: 1.0.1
 Depends: R (>= 3.6)

@@ -1499,4 +1499,4 @@ Imports: data.table (>= 1.12.6), geojsonsf (>= 2.0.0), jsonlite (>=
         (>= 1.1.0), RstoxBase (>= 1.3.0)
 Suggests: testthat, XML
 License: LGPL-3
-MD5sum: ceeae5b9fa88a34c959e045178b562c3
+MD5sum: 2a0abe692fd9a0c685fcd6f18633ab38

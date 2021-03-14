@@ -1,7 +1,7 @@
 # Stox Project Package Repository
 
 
-Updated on: Sun Mar 14 00:55:25 2021
+Updated on: Sun Mar 14 00:58:05 2021
 ## Source Packages
 
 |Package        |Version  |
@@ -17,6 +17,7 @@ Updated on: Sun Mar 14 00:55:25 2021
 |Package        |RVer |OS      |Version  |
 |:--------------|:----|:-------|:--------|
 |Reca           |3.6  |macosx  |1.3.9000 |
+|Reca           |4.0  |macosx  |1.3.9000 |
 |RstoxAPI       |3.6  |macosx  |1.1.11   |
 |RstoxAPI       |3.6  |windows |1.1.11   |
 |RstoxAPI       |4.0  |macosx  |1.1.11   |

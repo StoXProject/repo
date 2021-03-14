@@ -1,3 +1,10 @@
+Package: Reca
+Version: 1.3.9000
+Depends: R (>= 2.4.0),MASS
+Suggests: testthat
+License: GPL-2
+MD5sum: bb9c7cd92fe51e356b3971e3edc93603
+
 Package: RstoxAPI
 Version: 1.1.10
 Depends: R (>= 3.6)

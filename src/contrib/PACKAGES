@@ -6,6 +6,14 @@ License: GPL-2
 MD5sum: 48f91eb7035983828f07f485c8c9254d
 NeedsCompilation: yes
 
+Package: Reca
+Version: 1.3.9001
+Depends: R (>= 2.4.0),MASS
+Suggests: testthat
+License: GPL-2
+MD5sum: 48c19ee5d005ac4d6e7e7edcec1487c2
+NeedsCompilation: yes
+
 Package: RstoxAPI
 Version: 1.1.0.9001
 Depends: R (>= 3.6)

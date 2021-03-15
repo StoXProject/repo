@@ -1685,7 +1685,7 @@ Imports: stats (>= 3.5.0), methods (>= 3.5.0), utils (>= 3.5.0), readr
 Suggests: testthat, Reca, rgdal, rnaturalearth, rnaturalearthdata,
         rgeos
 License: LGPL-3
-MD5sum: d2f20da3adf014fed8060256108c7d2c
+MD5sum: c425b2e0c1c8904ae01e222860aa8ee4
 NeedsCompilation: no
 
 Package: RstoxFramework

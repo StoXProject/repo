@@ -1,7 +1,7 @@
 # Stox Project Package Repository
 
 
-Updated on: Tue Mar 30 11:38:36 2021
+Updated on: Tue Mar 30 11:39:01 2021
 ## Source Packages
 
 |Package        |Version    |
@@ -40,6 +40,6 @@ Updated on: Tue Mar 30 11:38:36 2021
 |RstoxFDA       |4.0  |macosx  |1.0.1.9000 |
 |RstoxFDA       |4.0  |windows |1.0.1.9000 |
 |RstoxFramework |3.6  |macosx  |3.0.2      |
-|RstoxFramework |3.6  |windows |3.0.2      |
+|RstoxFramework |3.6  |windows |3.0.3      |
 |RstoxFramework |4.0  |macosx  |3.0.2      |
 |RstoxFramework |4.0  |windows |3.0.3      |

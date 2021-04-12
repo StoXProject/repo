@@ -647,6 +647,16 @@ Suggests: testthat
 License: LGPL-3
 MD5sum: 17d8ce0147e6eca638512f5bdb3e01a7
 
+Package: RstoxBase
+Version: 1.3.7
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.6), geojsonsf (>= 2.0.0), rgeos (>=
+        0.5.2), rgdal (>= 1.5.0), sp (>= 1.3.2), sf (>= 0.9.0), ggplot2
+        (>= 3.0.0), RstoxData (>= 1.1.2)
+Suggests: testthat
+License: LGPL-3
+MD5sum: 371a2aa490c799a58bb1645cbb0d7abb
+
 Package: RstoxData
 Version: 0.8.0.9002
 Depends: R (>= 3.5)

@@ -1250,6 +1250,16 @@ Suggests: testthat
 License: LGPL-3
 MD5sum: a4a7f90e7254c98ad44563f69078719a
 
+Package: RstoxData
+Version: 1.1.7
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2), xslt
+        (>= 1.4), units (>= 0.7)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: 5c9ca92d109a73cde078d46dd0fe6d33
+
 Package: RstoxFDA
 Version: 1.0.1.9000
 Depends: R (>= 3.6)

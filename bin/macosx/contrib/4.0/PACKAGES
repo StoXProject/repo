@@ -591,7 +591,7 @@ Imports: data.table (>= 1.12.6), geojsonsf (>= 2.0.0), rgeos (>=
         (>= 3.0.0), units (>= 0.7), RstoxData (>= 1.1.8)
 Suggests: testthat
 License: LGPL-3
-MD5sum: 0ecf467c5a82afdc1027a565fecbc98c
+MD5sum: 2140e06e682d35f60523c56e68c4e04e
 
 Package: RstoxBase
 Version: 1.3.2

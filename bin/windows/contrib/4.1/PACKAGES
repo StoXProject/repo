@@ -17,6 +17,16 @@ Suggests: testthat
 License: LGPL-3
 
 Package: RstoxData
+Version: 1.1.10
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2), xslt
+        (>= 1.4), units (>= 0.7), stringi (>= 1.4.3)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+Archs: i386, x64
+
+Package: RstoxData
 Version: 1.1.9
 Depends: R (>= 3.6)
 Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2), xslt

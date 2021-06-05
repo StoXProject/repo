@@ -1106,6 +1106,16 @@ License: LGPL-3
 Archs: i386, x64
 
 Package: RstoxData
+Version: 1.1.12
+Depends: R (>= 3.6)
+Imports: Rcpp (>= 1.0.0), data.table (>= 1.12.6), xml2 (>= 1.2.2), xslt
+        (>= 1.4), units (>= 0.7), stringr (>= 1.0.0)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+Archs: i386, x64
+
+Package: RstoxData
 Version: 1.1.2
 Depends: R (>= 3.6)
 Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2), xslt

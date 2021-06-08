@@ -1981,6 +1981,17 @@ MD5sum: c83dc12280a6e09faaaa80f361437a2f
 NeedsCompilation: yes
 
 Package: RstoxData
+Version: 1.1.14
+Depends: R (>= 3.6)
+Imports: Rcpp (>= 1.0.0), data.table (>= 1.12.6), xml2 (>= 1.2.2), xslt
+        (>= 1.4), units (>= 0.7), stringi (>= 1.4.3)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: f89bc8a85d3fa1710847fb05a4824849
+NeedsCompilation: yes
+
+Package: RstoxData
 Version: 1.1.2
 Depends: R (>= 3.6)
 Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), xml2 (>= 1.2.2), xslt

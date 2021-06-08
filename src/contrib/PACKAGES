@@ -1988,7 +1988,7 @@ Imports: Rcpp (>= 1.0.0), data.table (>= 1.12.6), xml2 (>= 1.2.2), xslt
 LinkingTo: Rcpp
 Suggests: testthat
 License: LGPL-3
-MD5sum: f89bc8a85d3fa1710847fb05a4824849
+MD5sum: 4f21701970e130b20f76978166feb47f
 NeedsCompilation: yes
 
 Package: RstoxData

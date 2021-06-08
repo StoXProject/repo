@@ -107,3 +107,13 @@ LinkingTo: Rcpp
 Suggests: testthat
 License: LGPL-3
 MD5sum: f6a538c7051c9bfc0f53c49dbeb51f2f
+
+Package: RstoxData
+Version: 1.1.14
+Depends: R (>= 3.6)
+Imports: Rcpp (>= 1.0.0), data.table (>= 1.12.6), xml2 (>= 1.2.2), xslt
+        (>= 1.4), units (>= 0.7), stringi (>= 1.4.3)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: ed2d9be08a23ae4ba051ae5ccb3ab5c9

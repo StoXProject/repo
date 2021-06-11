@@ -3045,7 +3045,7 @@ Imports: geojsonsf (>= 2.0.0), data.table (>= 1.12.6), jsonlite (>=
         1.4.3), RstoxData (>= 1.1.14), RstoxBase (>= 1.3.28)
 Suggests: RCurl (>= 1.95-4.10), remotes (>= 2.0.0), testthat (>= 2.0.0)
 License: LGPL-3
-MD5sum: 622273e0e3a162745df10ed79801d9cf
+MD5sum: b2fe61f433c536e3c054cd171b9a9e12
 NeedsCompilation: no
 
 Package: RstoxFramework

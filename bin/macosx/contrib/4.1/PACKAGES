@@ -210,4 +210,4 @@ Imports: geojsonsf (>= 2.0.0), data.table (>= 1.12.6), jsonlite (>=
         1.4.3), RstoxData (>= 1.1.14), RstoxBase (>= 1.3.28)
 Suggests: RCurl (>= 1.95-4.10), remotes (>= 2.0.0), testthat (>= 2.0.0)
 License: LGPL-3
-MD5sum: 105ce98df2b8c4cc31360e41492ea442
+MD5sum: 9289f6f455a896d2217b1a3da1a81651

@@ -916,7 +916,7 @@ Imports: geojsonsf (>= 2.0.0), data.table (>= 1.12.6), rgeos (>=
         1.2.2), RstoxData (>= 1.2.3)
 Suggests: testthat
 License: LGPL-3
-MD5sum: 459c107aba0b3e0d227ec1411ddfbd70
+MD5sum: 2fc282438f276eff32f7d94779efe986
 
 Package: RstoxData
 Version: 0.8.0.9002

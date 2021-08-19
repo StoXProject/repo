@@ -1320,7 +1320,7 @@ Imports: geojsonsf (>= 2.0.0), data.table (>= 1.12.6), rgeos (>=
         1.2.2), RstoxData (>= 1.2.3)
 Suggests: testthat
 License: LGPL-3
-MD5sum: 2e5826c159494d148e1172cde7fd50bd
+MD5sum: 983fd5bcdcb77cddf2b923edc67d3991
 NeedsCompilation: no
 
 Package: RstoxData

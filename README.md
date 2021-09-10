@@ -1,7 +1,7 @@
 # Stox Project Package Repository
 
 
-Updated on: Fri Sep 10 08:35:09 2021
+Updated on: Fri Sep 10 09:27:15 2021
 ## Source Packages
 
 |Package        |Version    |
@@ -11,7 +11,7 @@ Updated on: Fri Sep 10 08:35:09 2021
 |RstoxBase      |1.4.8      |
 |RstoxData      |1.2.4      |
 |RstoxFDA       |1.0.1.9000 |
-|RstoxFramework |3.1.4      |
+|RstoxFramework |3.1.5      |
 
 ## Binary Packages
 

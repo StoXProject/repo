@@ -1733,7 +1733,7 @@ Imports: Rcpp (>= 1.0.0), data.table (>= 1.12.6), xml2 (>= 1.2.2), xslt
 LinkingTo: Rcpp
 Suggests: testthat
 License: LGPL-3
-MD5sum: 4f37ff601c2a8ddc29f3ca875298104a
+MD5sum: 0c51550d61de641e1403caf90f8fbe79
 
 Package: RstoxFDA
 Version: 1.0.1.9000

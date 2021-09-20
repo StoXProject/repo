@@ -618,3 +618,15 @@ Imports: geojsonsf (>= 2.0.0), data.table (>= 1.12.6), jsonlite (>=
 Suggests: remotes (>= 2.0.0), testthat (>= 2.0.0)
 License: LGPL-3
 MD5sum: 345fe8608d53652c13cdbe5cc10ca05c
+
+Package: RstoxFramework
+Version: 3.1.7
+Depends: R (>= 3.6)
+Imports: geojsonsf (>= 2.0.0), data.table (>= 1.12.6), jsonlite (>=
+        1.6), jsonvalidate (>= 1.1.0), rgdal (>= 1.5.0), sp (>= 1.3.2),
+        sf (>= 0.9.0), methods (>= 3.6.2), xml2 (>= 1.2.2), stringr (>=
+        1.0.0), stringi (>= 1.4.3), RstoxData (>= 1.2.5), RstoxBase (>=
+        1.4.11)
+Suggests: remotes (>= 2.0.0), testthat (>= 2.0.0)
+License: LGPL-3
+MD5sum: 13a875227f8f40f96ae8cc97d2ee4e50

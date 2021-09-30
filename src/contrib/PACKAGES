@@ -3636,5 +3636,5 @@ Imports: geojsonsf (>= 2.0.0), data.table (>= 1.12.6), jsonlite (>=
         1.4.13)
 Suggests: remotes (>= 2.0.0), testthat (>= 2.0.0)
 License: LGPL-3
-MD5sum: 18b398e61ba20bab7fa32b0828462513
+MD5sum: 7720ace1e7d3052ec8d8e840c1fed986
 NeedsCompilation: no

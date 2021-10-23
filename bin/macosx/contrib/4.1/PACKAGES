@@ -305,7 +305,7 @@ Imports: geojsonsf (>= 2.0.0), data.table (>= 1.12.6), rgeos (>=
         3.6.2), xml2 (>= 1.2.2), RstoxData (>= 1.2.11)
 Suggests: testthat
 License: LGPL-3
-MD5sum: 5458ddb10e954851c6cab6bf53dc5f09
+MD5sum: ac1297554a48ddeaecf41deac555df82
 
 Package: RstoxBase
 Version: 1.4.2

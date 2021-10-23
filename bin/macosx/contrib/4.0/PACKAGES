@@ -980,7 +980,7 @@ Imports: geojsonsf (>= 2.0.0), data.table (>= 1.12.6), rgeos (>=
         3.6.2), xml2 (>= 1.2.2), RstoxData (>= 1.2.11)
 Suggests: testthat
 License: LGPL-3
-MD5sum: 36e06965ad7adcaacb68f72548654541
+MD5sum: ad33ec8233e062c16bff59759a697733
 
 Package: RstoxBase
 Version: 1.4.2

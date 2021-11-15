@@ -2595,6 +2595,17 @@ MD5sum: 113e32594d5800b00c813456bf3d7fdf
 NeedsCompilation: yes
 
 Package: RstoxData
+Version: 1.2.16
+Depends: R (>= 3.6)
+Imports: Rcpp (>= 1.0.0), data.table (>= 1.12.6), xml2 (>= 1.2.2), xslt
+        (>= 1.4), units (>= 0.7), stringi (>= 1.4.3)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: 899310e305eed7eaca9524860cab4865
+NeedsCompilation: yes
+
+Package: RstoxData
 Version: 1.2.2
 Depends: R (>= 3.6)
 Imports: Rcpp (>= 1.0.0), data.table (>= 1.12.6), xml2 (>= 1.2.2), xslt

@@ -1928,7 +1928,7 @@ Imports: Rcpp (>= 1.0.0), data.table (>= 1.12.6), xml2 (>= 1.2.2), xslt
 LinkingTo: Rcpp
 Suggests: testthat
 License: LGPL-3
-MD5sum: 7c7242feed4b261ab8b3d44977a96a4c
+MD5sum: 798660d2090cd44e962964555b23a42c
 
 Package: RstoxData
 Version: 1.2.2

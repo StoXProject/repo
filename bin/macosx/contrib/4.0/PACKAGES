@@ -1963,6 +1963,16 @@ License: LGPL-3
 MD5sum: a138f497787b6e728a02a4d1c280a50e
 
 Package: RstoxData
+Version: 1.2.18
+Depends: R (>= 3.6)
+Imports: Rcpp (>= 1.0.0), data.table (>= 1.12.6), xml2 (>= 1.2.2), xslt
+        (>= 1.4), units (>= 0.7), stringi (>= 1.4.3)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: fc4885182b9f6c056afab1003ab57194
+
+Package: RstoxData
 Version: 1.2.2
 Depends: R (>= 3.6)
 Imports: Rcpp (>= 1.0.0), data.table (>= 1.12.6), xml2 (>= 1.2.2), xslt

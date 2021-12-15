@@ -3192,7 +3192,7 @@ Imports: geojsonsf (>= 2.0.0), data.table (>= 1.12.6), jsonlite (>=
         (>= 1.4.28)
 Suggests: remotes (>= 2.0.0), testthat (>= 2.0.0)
 License: LGPL-3
-MD5sum: c2a69619e584a49f3cec49262eeb22be
+MD5sum: 8924014763250eea6e0f44689e931f4c
 
 Package: RstoxFramework
 Version: 3.1.3

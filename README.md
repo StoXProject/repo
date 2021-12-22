@@ -1,7 +1,7 @@
 # Stox Project Package Repository
 
 
-Updated on: Wed Dec 22 04:48:31 2021
+Updated on: Wed Dec 22 04:53:58 2021
 ## Source Packages
 
 |Package        |Version    |
@@ -28,7 +28,7 @@ Updated on: Wed Dec 22 04:48:31 2021
 |RstoxAPI       |4.0  |macosx  |1.1.11     |
 |RstoxAPI       |4.0  |windows |1.1.11     |
 |RstoxBase      |3.6  |macosx  |1.4.31     |
-|RstoxBase      |3.6  |windows |1.4.30     |
+|RstoxBase      |3.6  |windows |1.4.31     |
 |RstoxBase      |4.0  |macosx  |1.4.31     |
 |RstoxBase      |4.0  |windows |1.4.31     |
 |RstoxBase      |4.1  |macosx  |1.4.31     |

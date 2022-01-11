@@ -2950,7 +2950,7 @@ Imports: Rcpp (>= 1.0.0), data.table (>= 1.12.6), xml2 (>= 1.2.2), xslt
 LinkingTo: Rcpp
 Suggests: testthat
 License: LGPL-3
-MD5sum: 6cd76e54023bcbc98a0accbdcf55076b
+MD5sum: 4926871933b06e80b6e7152a393ec62e
 NeedsCompilation: yes
 
 Package: RstoxData

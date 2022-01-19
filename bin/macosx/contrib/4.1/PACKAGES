@@ -1213,7 +1213,7 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
         1.7.0)
 Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
 License: LGPL-3
-MD5sum: 71a5556b7b6cc4d72f48bca5aba3e21a
+MD5sum: ee24a36638dc0c8968e4240ae5a78646
 
 Package: RstoxFDA
 Version: 1.0.3

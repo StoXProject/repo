@@ -3312,7 +3312,7 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
         1.7.0)
 Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
 License: LGPL-3
-MD5sum: ad15640d6c0fe8bfaaedc3766ee585dd
+MD5sum: e7540ff46bfac50e9368a6f194947bb9
 NeedsCompilation: no
 
 Package: RstoxFDA

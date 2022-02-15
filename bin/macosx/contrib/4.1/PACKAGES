@@ -1942,4 +1942,4 @@ Imports: geojsonsf (>= 2.0.0), data.table (>= 1.12.6), jsonlite (>=
         1.4.3), RstoxData (>= 1.5.9), RstoxBase (>= 1.7.4)
 Suggests: remotes (>= 2.0.0), tinytest (>= 1.2.0)
 License: LGPL-3
-MD5sum: 6bc7b5933044755ede0d93c0ed682dd6
+MD5sum: 9cf194a4168a1a04dc23e41acaff7b13

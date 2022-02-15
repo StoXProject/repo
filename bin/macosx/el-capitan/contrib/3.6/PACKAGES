@@ -2746,7 +2746,7 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
         1.7.3)
 Suggests: rnaturalearth, Reca, tinytest, rnaturalearthdata
 License: LGPL-3
-MD5sum: 18af1d186655250a164fbc44b3b3e53f
+MD5sum: c187ff73719e82c32977ad20ed7bbc3d
 
 Package: RstoxFramework
 Version: 1.0.1.9000

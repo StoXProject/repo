@@ -3867,4 +3867,4 @@ Imports: geojsonsf (>= 2.0.0), data.table (>= 1.12.6), jsonlite (>=
         1.4.3), RstoxData (>= 1.5.12), RstoxBase (>= 1.7.6)
 Suggests: remotes (>= 2.0.0), tinytest (>= 1.2.0)
 License: LGPL-3
-MD5sum: 0cdc8823585bd70817d58be2dd44d363
+MD5sum: 739c4227f7f68637d7ff620afee654a8

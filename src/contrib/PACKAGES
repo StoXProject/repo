@@ -5094,5 +5094,5 @@ Imports: geojsonsf (>= 2.0.0), data.table (>= 1.12.6), jsonlite (>=
         1.4.3), RstoxData (>= 1.5.12), RstoxBase (>= 1.7.6)
 Suggests: remotes (>= 2.0.0), tinytest (>= 1.2.0)
 License: LGPL-3
-MD5sum: dbb4c46523e470e9c3679634b077659d
+MD5sum: 8ce8e573321a4ed27ebbd70a8e317c3f
 NeedsCompilation: no

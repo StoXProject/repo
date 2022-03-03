@@ -2520,7 +2520,7 @@ Imports: Rcpp (>= 1.0.0), data.table (>= 1.12.6), xml2 (>= 1.2.2), xslt
 LinkingTo: Rcpp
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
-MD5sum: fbf62d487f6a239a14acad10692f76dd
+MD5sum: 38cecec162d89639a6e4ffb3be599526
 
 Package: RstoxData
 Version: 1.5.2

@@ -1,14 +1,14 @@
 # Stox Project Package Repository
 
 
-Updated on: Thu Mar 31 12:37:26 2022
+Updated on: Thu Mar 31 12:38:44 2022
 ## Source Packages
 
 |Package        |Version    |
 |:--------------|:----------|
 |Reca           |1.3.9004   |
 |RstoxAPI       |1.1.11     |
-|RstoxBase      |1.7.14     |
+|RstoxBase      |1.8.0      |
 |RstoxData      |1.6.0      |
 |RstoxFDA       |1.0.3.9024 |
 |RstoxFramework |3.3.10     |

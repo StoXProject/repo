@@ -25,8 +25,13 @@ f1 <- function(pkgfilename) {
             m <- m[order(m[, "Package"], numeric_version(m[, "Version"])), ];
             m <- m[cumsum(table(m[, "Package"])),];
         };
-
+        
+        print(1);
+        print(m);
+        
         m <- cbind(m, RVer=ver, OS=os);
+        print(2);
+        print(m);
         return(m[,c("Package", "RVer", "OS", "Version")]);
 };
 

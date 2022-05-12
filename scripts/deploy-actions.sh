@@ -20,7 +20,7 @@ f1 <- function(pkgfilename) {
         ver <- head(tail(tmp, 2), 1);
         os <- tail(head(tmp, 2), 1);
 
-        m <- read.dcf(pkgfilename);
+        m <- read.dcf(pkgfilename, all = TRUE);
         if( nrow(m) > 1 ) {
             m <- m[order(m[, "Package"], numeric_version(m[, "Version"])), ];
             m <- m[cumsum(table(m[, "Package"])),];

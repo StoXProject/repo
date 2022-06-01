@@ -1,7 +1,7 @@
 # Stox Project Package Repository
 
 
-Updated on: Fri May 27 20:03:21 2022
+Updated on: Wed Jun 01 18:13:19 2022
 ## Source Packages
 
 |Package        |Version    |
@@ -17,45 +17,45 @@ Updated on: Fri May 27 20:03:21 2022
 
 |Package        |RVer |OS      |Version    |
 |:--------------|:----|:-------|:----------|
+|Reca           |3.6  |macosx  |1.3.9004   |
+|Reca           |3.6  |windows |1.3.9004   |
 |Reca           |4.0  |macosx  |1.3.9004   |
 |Reca           |4.0  |windows |1.3.9004   |
 |Reca           |4.1  |macosx  |1.3.9004   |
 |Reca           |4.1  |windows |1.3.9004   |
-|Reca           |3.6  |macosx  |1.3.9004   |
-|Reca           |3.6  |windows |1.3.9004   |
-|RstoxAPI       |4.0  |macosx  |1.1.11     |
-|RstoxAPI       |4.0  |windows |1.1.11     |
 |RstoxAPI       |3.6  |macosx  |1.1.11     |
 |RstoxAPI       |3.6  |windows |1.1.11     |
+|RstoxAPI       |4.0  |macosx  |1.1.11     |
+|RstoxAPI       |4.0  |windows |1.1.11     |
+|RstoxBase      |3.6  |macosx  |1.9.2      |
+|RstoxBase      |3.6  |windows |1.9.2      |
 |RstoxBase      |4.0  |macosx  |1.9.2      |
 |RstoxBase      |4.0  |windows |1.9.2      |
 |RstoxBase      |4.1  |macosx  |1.9.2      |
-|RstoxBase      |4.1  |windows |1.9.2      |
+|RstoxBase      |4.1  |windows |1.9.3      |
 |RstoxBase      |4.2  |macosx  |1.9.2      |
 |RstoxBase      |4.2  |windows |1.9.2      |
-|RstoxBase      |3.6  |macosx  |1.9.2      |
-|RstoxBase      |3.6  |windows |1.9.2      |
+|RstoxData      |3.5  |macosx  |0.8.3      |
+|RstoxData      |3.5  |windows |0.8.3      |
+|RstoxData      |3.6  |macosx  |1.6.3      |
+|RstoxData      |3.6  |windows |1.6.3      |
 |RstoxData      |4.0  |macosx  |1.6.3      |
 |RstoxData      |4.0  |windows |1.6.3      |
 |RstoxData      |4.1  |macosx  |1.6.3      |
 |RstoxData      |4.1  |windows |1.6.3      |
 |RstoxData      |4.2  |macosx  |1.6.3      |
 |RstoxData      |4.2  |windows |1.6.3      |
-|RstoxData      |3.5  |macosx  |0.8.3      |
-|RstoxData      |3.5  |windows |0.8.3      |
-|RstoxData      |3.6  |macosx  |1.6.3      |
-|RstoxData      |3.6  |windows |1.6.3      |
+|RstoxFDA       |3.6  |macosx  |1.0.3.9025 |
+|RstoxFDA       |3.6  |windows |1.0.3.9025 |
 |RstoxFDA       |4.0  |macosx  |1.0.3.9005 |
 |RstoxFDA       |4.0  |windows |1.0.3.9005 |
 |RstoxFDA       |4.1  |macosx  |1.0.3.9025 |
 |RstoxFDA       |4.1  |windows |1.0.3.9025 |
-|RstoxFDA       |3.6  |macosx  |1.0.3.9025 |
-|RstoxFDA       |3.6  |windows |1.0.3.9025 |
+|RstoxFramework |3.6  |macosx  |3.2.0      |
+|RstoxFramework |3.6  |windows |3.3.2      |
 |RstoxFramework |4.0  |macosx  |3.4.0      |
 |RstoxFramework |4.0  |windows |3.4.0      |
 |RstoxFramework |4.1  |macosx  |3.4.1      |
 |RstoxFramework |4.1  |windows |3.4.1      |
 |RstoxFramework |4.2  |macosx  |3.4.1      |
 |RstoxFramework |4.2  |windows |3.4.1      |
-|RstoxFramework |3.6  |macosx  |3.2.0      |
-|RstoxFramework |3.6  |windows |3.3.2      |

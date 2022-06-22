@@ -2453,3 +2453,14 @@ Imports: data.table (>= 1.12.6), geojsonsf (>= 2.0.0), jsonlite (>=
 Suggests: remotes (>= 2.0.0), tinytest (>= 1.2.0)
 License: LGPL-3
 MD5sum: db290192b818095bd6e5dd34158b8cad
+
+Package: RstoxFramework
+Version: 3.4.3
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.6), geojsonsf (>= 2.0.0), jsonlite (>=
+        1.6), jsonvalidate (>= 1.3.2), methods (>= 3.6.2), RstoxBase
+        (>= 1.9.5), RstoxData (>= 1.6.7), sf (>= 0.9.0), sp (>= 1.3.2),
+        stringi (>= 1.4.3)
+Suggests: remotes (>= 2.0.0), tinytest (>= 1.2.0)
+License: LGPL-3
+MD5sum: 53bf46f2c0dc726023b9cdd0e44e5088

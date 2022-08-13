@@ -2922,7 +2922,7 @@ Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), stringi (>= 1.4.3),
 LinkingTo: Rcpp
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
-MD5sum: d58dd742b19a454183e86ac35bfd4e84
+MD5sum: edca79d58c83148c8ae2a8d5b1d0f412
 
 Package: RstoxFDA
 Version: 1.0.1.9000

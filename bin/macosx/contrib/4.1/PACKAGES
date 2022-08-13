@@ -2588,4 +2588,4 @@ Imports: data.table (>= 1.12.6), geojsonsf (>= 2.0.0), jsonlite (>=
         1.3.2), stringi (>= 1.4.3)
 Suggests: remotes (>= 2.0.0), tinytest (>= 1.2.0)
 License: LGPL-3
-MD5sum: b825ea5fb255687c0b3a6ecc8ef9322e
+MD5sum: 73ac149a74aab3304663e9b44f3863be

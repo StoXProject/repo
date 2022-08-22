@@ -10,7 +10,7 @@ Version: 1.3
 Depends: R (>= 2.4.0),MASS
 Suggests: testthat
 License: GPL-2
-MD5sum: f5eb9d21b75c9df13dce19a9414f7b42
+MD5sum: 7390e701cbae9e9e065f72605ad53967
 
 Package: RstoxBase
 Version: 1.10.0

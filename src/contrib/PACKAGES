@@ -51,7 +51,7 @@ Version: 1.3
 Depends: R (>= 2.4.0),MASS
 Suggests: testthat
 License: GPL-2
-MD5sum: a9f67e801b3d848cc28f52ca71389619
+MD5sum: 854bec2025103c62dd4cf16fc64799e2
 NeedsCompilation: yes
 
 Package: RstoxAPI

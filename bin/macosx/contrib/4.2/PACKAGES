@@ -231,6 +231,16 @@ Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
 MD5sum: cd23ec51dfca032e294834731ca5e64e
 
+Package: RstoxData
+Version: 1.7.1.9003
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.6), Rcpp (>= 1.0.0), stringi (>= 1.4.3),
+        units (>= 0.7), xml2 (>= 1.2.2), xslt (>= 1.4)
+LinkingTo: Rcpp
+Suggests: tinytest (>= 1.2.0)
+License: LGPL-3
+MD5sum: b5f4e659ac0f8d8a42156c292ea3873c
+
 Package: RstoxFDA
 Version: 1.0.3.9026
 Depends: R (>= 3.6)

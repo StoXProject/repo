@@ -31,7 +31,10 @@ f1 <- function(pkgfilename) {
         return(m[,c("Package", "RVer", "OS", "Version")]);
 };
 
-pkgfiles <- list.files("bin", pattern="PACKAGES$", recursive = T, full.names = T);
+#pkgfiles <- list.files("bin", pattern="PACKAGES$", recursive = T, full.names = T);
+pkgDirs <- list.dirs("bin", pattern="PACKAGES$", recursive = f, full.names = T);
+pkgfiles <- lapply(pkgDirs, list.files, recursive = T, full.names = T);
+pkgfiles <- lapply(pkgfiles, utils::tail, 10)
 
 listpkg <- lapply(pkgfiles, f1);
 tbl <- as.data.frame(do.call(rbind, listpkg));

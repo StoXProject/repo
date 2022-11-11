@@ -20,17 +20,21 @@ f1 <- function(pkgfilename) {
         ver <- head(tail(tmp, 2), 1);
         os <- tail(head(tmp, 2), 1);
 
-        m <- read.dcf(pkgfilename);
+        m <- read.dcf(pkgfilename, all = TRUE);
         if( nrow(m) > 1 ) {
             m <- m[order(m[, "Package"], numeric_version(m[, "Version"])), ];
             m <- m[cumsum(table(m[, "Package"])),];
         };
-
+        
         m <- cbind(m, RVer=ver, OS=os);
+        
         return(m[,c("Package", "RVer", "OS", "Version")]);
 };
 
-pkgfiles <- list.files("bin", pattern="PACKAGES$", recursive = T, full.names = T);
+#pkgfiles <- list.files("bin", pattern="PACKAGES$", recursive = T, full.names = T);
+pkgDirs <- list.dirs("bin", pattern="PACKAGES$", recursive = f, full.names = T);
+pkgfiles <- lapply(pkgDirs, list.files, recursive = T, full.names = T);
+pkgfiles <- lapply(pkgfiles, utils::tail, 10)
 
 listpkg <- lapply(pkgfiles, f1);
 tbl <- as.data.frame(do.call(rbind, listpkg));

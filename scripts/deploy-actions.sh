@@ -76,7 +76,7 @@ addToDrat(){
     Rscript -e "library(drat); insertPackage('./$PKG_FILE', \
       repodir = './drat', \
       commit=FALSE);
-      drat::updateRepo('./drat')"
+      #drat::updateRepo('./drat')"
     cd drat
 
     # Run page generator

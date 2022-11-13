@@ -29,7 +29,7 @@ addToDrat(){
     Rscript -e "library(drat); insertPackage('$PKG_REPO/drat/$PKG_TARBALL', \
       repodir = '.', \
       commit='Repo update $PKG_REPO: build $TRAVIS_BUILD_NUMBER');
-      drat::updateRepo('.')"
+      #drat::updateRepo('.')"
   fi
 
   if [ "${TRAVIS_BUILD_NUMBER+x}" = x ]; then
@@ -41,7 +41,7 @@ addToDrat(){
   Rscript -e "library(drat); insertPackage('$PKG_REPO/drat/$BINSRC', \
     repodir = '.', \
     commit='Repo update $PKG_REPO: build $BUILD_NUMBER');
-      drat::updateRepo('.')"
+      #drat::updateRepo('.')"
   git push 2>err.txt
 
 }

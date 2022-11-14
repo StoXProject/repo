@@ -1,16 +1,16 @@
 Package: Reca
-Version: 1.3
-Depends: R (>= 2.4.0),MASS
-Suggests: testthat
-License: GPL-2
-MD5sum: c2e6a653afbf6edb3bd263a59c8005e9
-
-Package: Reca
 Version: 1.3.9005
 Depends: R (>= 2.4.0),MASS
 Suggests: testthat
 License: GPL-2
 MD5sum: 75ba51b02a04ec7e39c4035207790c94
+
+Package: Reca
+Version: 1.3
+Depends: R (>= 2.4.0),MASS
+Suggests: testthat
+License: GPL-2
+MD5sum: c2e6a653afbf6edb3bd263a59c8005e9
 
 Package: RstoxBase
 Version: 1.10.0
@@ -45,6 +45,16 @@ License: LGPL-3
 MD5sum: 5293be61e829522a6ced78afaed6144c
 
 Package: RstoxData
+Version: 1.7.2-9001
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.0), Rcpp (>= 1.0.0), stringi (>= 1.4.0),
+        units (>= 0.7), xml2 (>= 1.2.0), xslt (>= 1.4)
+LinkingTo: Rcpp
+Suggests: tinytest (>= 1.2.0)
+License: LGPL-3
+MD5sum: 613bfde9f2d80b2df99dc93d768d1658
+
+Package: RstoxData
 Version: 1.7.2
 Depends: R (>= 3.6)
 Imports: data.table (>= 1.12.0), Rcpp (>= 1.0.0), stringi (>= 1.4.0),
@@ -55,27 +65,14 @@ License: LGPL-3
 MD5sum: 0470ba73e18c004abd5e3f698dd5b8c3
 
 Package: RstoxData
-Version: 1.7.2-9001
+Version: 1.7.3
 Depends: R (>= 3.6)
 Imports: data.table (>= 1.12.0), Rcpp (>= 1.0.0), stringi (>= 1.4.0),
         units (>= 0.7), xml2 (>= 1.2.0), xslt (>= 1.4)
 LinkingTo: Rcpp
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
-MD5sum: 613bfde9f2d80b2df99dc93d768d1658
-
-Package: RstoxFDA
-Version: 1.0.3
-Depends: R (>= 3.6)
-Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
-        data.table (>= 1.12.6), ggplot2 (>= 3.2.1), RColorBrewer (>=
-        1.1-2), gridExtra (>= 2.3), sp (>= 1.3.2), sf (>= 0.9.0), rgdal
-        (>= 1.5.0), rgeos (>= 0.5), RstoxData (>= 1.7.0), RstoxBase (>=
-        1.10.0)
-Suggests: rnaturalearth, Reca, tinytest, rnaturalearthdata, knitr,
-        rmarkdown
-License: LGPL-3
-MD5sum: 9688ef20d9c5c4461c78f1c863d301f3
+MD5sum: f34fb263c3167688aba7d11f72195569
 
 Package: RstoxFDA
 Version: 1.0.3.9026
@@ -89,6 +86,19 @@ Suggests: rnaturalearth, Reca, tinytest, rnaturalearthdata, knitr,
         rmarkdown
 License: LGPL-3
 MD5sum: 0e3fb727681b4e6ff81e1232800b6b0b
+
+Package: RstoxFDA
+Version: 1.0.3
+Depends: R (>= 3.6)
+Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
+        data.table (>= 1.12.6), ggplot2 (>= 3.2.1), RColorBrewer (>=
+        1.1-2), gridExtra (>= 2.3), sp (>= 1.3.2), sf (>= 0.9.0), rgdal
+        (>= 1.5.0), rgeos (>= 0.5), RstoxData (>= 1.7.0), RstoxBase (>=
+        1.10.0)
+Suggests: rnaturalearth, Reca, tinytest, rnaturalearthdata, knitr,
+        rmarkdown
+License: LGPL-3
+MD5sum: 9688ef20d9c5c4461c78f1c863d301f3
 
 Package: RstoxFDA
 Version: 1.0.4

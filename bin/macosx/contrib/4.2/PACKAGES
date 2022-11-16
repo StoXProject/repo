@@ -154,4 +154,4 @@ Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
         0.9.0), sp (>= 1.3.0), stringi (>= 1.4.0)
 Suggests: remotes (>= 2.0.0), tinytest (>= 1.2.0)
 License: LGPL-3
-MD5sum: 8fd5e78d41288a60207c494f79a37dba
+MD5sum: 168b10bfb4533d76138b7510c14d861d

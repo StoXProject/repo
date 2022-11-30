@@ -6,6 +6,7 @@
 PKGVER=$(sed -n "s/Version: *\([^ ]*\)/\1/p" DESCRIPTION)
 PKGNAME=$(sed -n "s/Package: *\([^ ]*\)/\1/p" DESCRIPTION)
 TAG=${PKGNAME}-v${PKGVER}
+PRERELEASE=$(${TAG} | grep -e "[-].*[-]" -c)
 
 echo "Looking for tag $TAG"
 
@@ -45,6 +46,7 @@ fi
 
 export FINAL_TAG=$TAG
 export PKG_FILE_PREFIX=${PKGNAME}_${PKGVER}
+export PRERELEASE=$PRERELEASE
 
 
 echo "Final tag is $FINAL_TAG"

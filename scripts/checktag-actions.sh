@@ -6,7 +6,7 @@
 PKGVER=$(sed -n "s/Version: *\([^ ]*\)/\1/p" DESCRIPTION)
 PKGNAME=$(sed -n "s/Package: *\([^ ]*\)/\1/p" DESCRIPTION)
 TAG=${PKGNAME}-v${PKGVER}
-PRERELEASE=$(${TAG} | grep -e "[-].*[-]" -c)
+PRERELEASE=$(echo ${TAG} | grep -e "[-].*[-]" -c)
 
 echo "Looking for tag $TAG"
 

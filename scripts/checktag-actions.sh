@@ -5,11 +5,11 @@
 
 echo "33333333"
 PKGVER=$(sed -n "s/Version: *\([^ ]*\)/\1/p" DESCRIPTION)
-echo "44444444"
+echo "$PKGVER"
 PKGNAME=$(sed -n "s/Package: *\([^ ]*\)/\1/p" DESCRIPTION)
-echo "55555555555"
+echo "$PKGNAME"
 TAG=${PKGNAME}-v${PKGVER}
-echo "66666666"
+echo "$TAG"
 PRERELEASE=$(echo ${TAG} | grep -e "[-].*[-]" -c)
 
 echo "Looking for tag $TAG"

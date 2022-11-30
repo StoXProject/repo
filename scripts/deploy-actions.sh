@@ -55,43 +55,48 @@ EOF
 )
 
 addToDrat(){
-  mkdir drat; cd drat
 
-  ## Set up Repo parameters
-  git init
-  git config user.name "StoXProject bot"
-  git config user.email "stox@hi.no"
-  git config --global push.default simple
-
-  ## Get drat repo
-  git remote add upstream "https://x-access-token:${DRAT_DEPLOY_TOKEN}@github.com/StoXProject/repo.git"
-
-  # To prevent race condition, set a loop of adding and pushing file with Drat
-  RET=1
-  until [ $RET -eq 0 ]; do
-    echo "Begin insert"
-    git fetch upstream
-    git checkout -f gh-pages
-    cd ..
-    Rscript -e "library(drat); insertPackage('./$PKG_FILE', \
-      repodir = './drat', \
-      commit=FALSE);
-      #drat::updateRepo('./drat')"
-    cd drat
-
-    # Run page generator
-    echo $rscript | R --slave
+  if [ "${PRERELEASE}" = 0 ]; then
     
-    git add .
-    git status
-    git commit -m "Add ${PKG_FREL}: build ${BUILD_NUMBER}"
-    git push && RET=$? || RET=$?
-    git reset --hard upstream/gh-pages
-    git clean -f -d
-    sleep 1
-    echo "End insert"
-  done
-  cd ..
+    mkdir drat; cd drat
+
+    ## Set up Repo parameters
+    git init
+    git config user.name "StoXProject bot"
+    git config user.email "stox@hi.no"
+    git config --global push.default simple
+
+    ## Get drat repo
+    git remote add upstream "https://x-access-token:${DRAT_DEPLOY_TOKEN}@github.com/StoXProject/repo.git"
+
+    # To prevent race condition, set a loop of adding and pushing file with Drat
+    RET=1
+    until [ $RET -eq 0 ]; do
+      echo "Begin insert"
+      git fetch upstream
+      git checkout -f gh-pages
+      cd ..
+      Rscript -e "library(drat); insertPackage('./$PKG_FILE', \
+        repodir = './drat', \
+        commit=FALSE);
+        #drat::updateRepo('./drat')"
+      cd drat
+
+      # Run page generator
+      echo $rscript | R --slave
+    
+      git add .
+      git status
+      git commit -m "Add ${PKG_FREL}: build ${BUILD_NUMBER}"
+      git push && RET=$? || RET=$?
+      git reset --hard upstream/gh-pages
+      git clean -f -d
+      sleep 1
+      echo "End insert"
+    done
+    cd ..
+	
+  fi  
 }
 
 addToDrat

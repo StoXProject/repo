@@ -10,6 +10,10 @@ PKGNAME=$(sed -n "s/Package: *\([^ ]*\)/\1/p" DESCRIPTION)
 echo "$PKGNAME"
 TAG=${PKGNAME}-v${PKGVER}
 echo "$TAG"
+PRERELEASE=$(echo "Rstox-v1.2.3-4" | grep -e "[-].*[-]" -c)
+echo "$PRERELEASE"
+PRERELEASE=$(echo "Rstox-v1.2.3" | grep -e "[-].*[-]" -c)
+echo "$PRERELEASE"
 PRERELEASE=$(echo ${TAG} | grep -e "[-].*[-]" -c)
 
 echo "Looking for tag $TAG"

@@ -3,9 +3,13 @@
 # We automatically increment the package version for every successful pull request that merged to master
 # This happens only if the current package version is already released (tagged)
 
+echo "33333333"
 PKGVER=$(sed -n "s/Version: *\([^ ]*\)/\1/p" DESCRIPTION)
+echo "44444444"
 PKGNAME=$(sed -n "s/Package: *\([^ ]*\)/\1/p" DESCRIPTION)
+echo "55555555555"
 TAG=${PKGNAME}-v${PKGVER}
+echo "66666666"
 PRERELEASE=$(echo ${TAG} | grep -e "[-].*[-]" -c)
 
 echo "Looking for tag $TAG"

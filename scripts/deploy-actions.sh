@@ -56,7 +56,7 @@ EOF
 
 addToDrat(){
 
-  if [ "${PRERELEASE}" = 0 ]; then
+  if [ "${PRERELEASE}" = false ]; then
     
     mkdir drat; cd drat
 

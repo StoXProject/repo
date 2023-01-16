@@ -901,5 +901,5 @@ Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
 Suggests: remotes (>= 2.0.0), RstoxFDA (>= 1.1.0-9001), tinytest (>=
         1.2.0)
 License: LGPL-3
-MD5sum: c605dc0b979cbc0fe4063392b8483e61
+MD5sum: ee855660f2d613c8ddde59761af734f6
 NeedsCompilation: no

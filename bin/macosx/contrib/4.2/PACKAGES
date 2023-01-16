@@ -109,7 +109,7 @@ Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
         (>= 0.7), xml2 (>= 1.2.0)
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
-MD5sum: eafcf8ac91ab05291feba9c5afcfcc61
+MD5sum: c32b52d699ebcfc628509709d1fe8f1a
 
 Package: RstoxData
 Version: 1.7.0

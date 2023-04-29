@@ -67,18 +67,6 @@ MD5sum: 36ca16f8643994b843a9c182bd91c4c5
 NeedsCompilation: no
 
 Package: RstoxBase
-Version: 1.10.1-9001
-Depends: R (>= 3.6)
-Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
-        3.0.0), lwgeom (>= 0.2-0), maps (>= 0.2-0), RstoxData (>=
-        1.7.0), sf (>= 0.9.0), sp (>= 1.3.0), stringi (>= 1.4.0), units
-        (>= 0.7), xml2 (>= 1.2.0)
-Suggests: tinytest (>= 1.2.0)
-License: LGPL-3
-MD5sum: bce2269b0e7c38a17df483e09920b99b
-NeedsCompilation: no
-
-Package: RstoxBase
 Version: 1.10.1
 Depends: R (>= 3.6)
 Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
@@ -100,18 +88,6 @@ Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
 MD5sum: 4446ed3b0a8a0969f508e2e957d76ad2
-NeedsCompilation: no
-
-Package: RstoxBase
-Version: 1.10.3-9001
-Depends: R (>= 3.6)
-Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
-        3.0.0), lwgeom (>= 0.2-0), maps (>= 0.2-0), RstoxData (>=
-        1.7.3), sf (>= 0.9.0), sp (>= 1.3.0), stringi (>= 1.4.0), units
-        (>= 0.7), xml2 (>= 1.2.0)
-Suggests: tinytest (>= 1.2.0)
-License: LGPL-3
-MD5sum: b03d1cd24d496aa8b7dc554edbc320ef
 NeedsCompilation: no
 
 Package: RstoxBase
@@ -178,12 +154,12 @@ Package: RstoxBase
 Version: 1.11.2
 Depends: R (>= 3.6)
 Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
-        3.0.0), lwgeom (>= 0.2-0), maps (>= 0.2-0), RstoxData (>=
-        1.9.0), sf (>= 0.9.0), sp (>= 1.3.0), stringi (>= 1.4.0), units
-        (>= 0.7), xml2 (>= 1.2.0)
+        3.0.0), lwgeom (>= 0.2-0), maps (>= 0.2-0), methods (>= 3.6.0),
+        RstoxData (>= 1.9.0), sf (>= 0.9.0), sp (>= 1.3.0), stringi (>=
+        1.4.0), units (>= 0.7), xml2 (>= 1.2.0)
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
-MD5sum: a9047c22c13ded3f23126254b61c7746
+MD5sum: a2fea74cfb5f55fc237b3c2186b36a8a
 NeedsCompilation: no
 
 Package: RstoxBase
@@ -311,17 +287,6 @@ MD5sum: 7a7fd22a4b11868a940fce605d9d75ed
 NeedsCompilation: yes
 
 Package: RstoxData
-Version: 1.7.2-9001
-Depends: R (>= 3.6)
-Imports: data.table (>= 1.12.0), Rcpp (>= 1.0.0), stringi (>= 1.4.0),
-        units (>= 0.7), xml2 (>= 1.2.0), xslt (>= 1.4)
-LinkingTo: Rcpp
-Suggests: tinytest (>= 1.2.0)
-License: LGPL-3
-MD5sum: 74a7ea3916aa747ece28a519e4d935af
-NeedsCompilation: yes
-
-Package: RstoxData
 Version: 1.7.2
 Depends: R (>= 3.6)
 Imports: data.table (>= 1.12.0), Rcpp (>= 1.0.0), stringi (>= 1.4.0),
@@ -341,17 +306,6 @@ LinkingTo: Rcpp
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
 MD5sum: c9c88ffad0c2f1f73a35dca0652301b2
-NeedsCompilation: yes
-
-Package: RstoxData
-Version: 1.7.4-9001
-Depends: R (>= 3.6)
-Imports: data.table (>= 1.12.0), Rcpp (>= 1.0.0), stringi (>= 1.4.0),
-        units (>= 0.7), xml2 (>= 1.2.0), xslt (>= 1.4)
-LinkingTo: Rcpp
-Suggests: tinytest (>= 1.2.0)
-License: LGPL-3
-MD5sum: d1145bf6b91b33f832f723d81e0428a7
 NeedsCompilation: yes
 
 Package: RstoxData
@@ -399,19 +353,6 @@ MD5sum: 3ce579f0ccd17bea3edebde47059e523
 NeedsCompilation: yes
 
 Package: RstoxFDA
-Version: 1.0.1.9000
-Depends: R (>= 3.6)
-Imports: stats (>= 3.5.0), methods (>= 3.5.0), utils (>= 3.5.0), readr
-        (>= 1.3.1), data.table (>= 1.12.6), ggplot2 (>= 3.2.1),
-        RColorBrewer (>= 1.1-2), gridExtra (>= 2.3), sp (>= 1.3.2), sf
-        (>= 0.9.0), RstoxData (>= 1.0.25)
-Suggests: testthat, Reca, rgdal, rnaturalearth, rnaturalearthdata,
-        rgeos
-License: LGPL-3
-MD5sum: 15fa9c3b1ad04bcf1536ad81158d5c49
-NeedsCompilation: no
-
-Package: RstoxFDA
 Version: 1.0.1
 Depends: R (>= 3.6)
 Imports: stats (>= 3.5.0), methods (>= 3.5.0), utils (>= 3.5.0), readr
@@ -434,358 +375,6 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
 Suggests: rnaturalearth, rnaturalearthdata, Reca, testthat
 License: LGPL-3
 MD5sum: 484ee1dc23ed47cc4625a1044bf87f1e
-NeedsCompilation: no
-
-Package: RstoxFDA
-Version: 1.0.3.9000
-Depends: R (>= 3.6)
-Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
-        data.table (>= 1.12.6), ggplot2 (>= 3.2.1), RColorBrewer (>=
-        1.1-2), gridExtra (>= 2.3), sp (>= 1.3.2), sf (>= 0.9.0), rgdal
-        (>= 1.5.0), rgeos (>= 0.5), RstoxData (>= 1.2.16), RstoxBase
-        (>= 1.4.23)
-Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
-License: LGPL-3
-MD5sum: da9c242c3a87e34fef861b3883bb2938
-NeedsCompilation: no
-
-Package: RstoxFDA
-Version: 1.0.3.9001
-Depends: R (>= 3.6)
-Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
-        data.table (>= 1.12.6), ggplot2 (>= 3.2.1), RColorBrewer (>=
-        1.1-2), gridExtra (>= 2.3), sp (>= 1.3.2), sf (>= 0.9.0), rgdal
-        (>= 1.5.0), rgeos (>= 0.5), RstoxData (>= 1.2.17), RstoxBase
-        (>= 1.4.24)
-Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
-License: LGPL-3
-MD5sum: 1e173357a02611a43d6c77bffc2d6bfb
-NeedsCompilation: no
-
-Package: RstoxFDA
-Version: 1.0.3.9002
-Depends: R (>= 3.6)
-Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
-        data.table (>= 1.12.6), ggplot2 (>= 3.2.1), RColorBrewer (>=
-        1.1-2), gridExtra (>= 2.3), sp (>= 1.3.2), sf (>= 0.9.0), rgdal
-        (>= 1.5.0), rgeos (>= 0.5), RstoxData (>= 1.2.17), RstoxBase
-        (>= 1.4.24)
-Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
-License: LGPL-3
-MD5sum: 1a6842defb0d380af1da2868ccf79697
-NeedsCompilation: no
-
-Package: RstoxFDA
-Version: 1.0.3.9003
-Depends: R (>= 3.6)
-Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
-        data.table (>= 1.12.6), ggplot2 (>= 3.2.1), RColorBrewer (>=
-        1.1-2), gridExtra (>= 2.3), sp (>= 1.3.2), sf (>= 0.9.0), rgdal
-        (>= 1.5.0), rgeos (>= 0.5), RstoxData (>= 1.2.17), RstoxBase
-        (>= 1.4.24)
-Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
-License: LGPL-3
-MD5sum: 35779b2af4a90e12805056bbc48ad651
-NeedsCompilation: no
-
-Package: RstoxFDA
-Version: 1.0.3.9004
-Depends: R (>= 3.6)
-Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
-        data.table (>= 1.12.6), ggplot2 (>= 3.2.1), RColorBrewer (>=
-        1.1-2), gridExtra (>= 2.3), sp (>= 1.3.2), sf (>= 0.9.0), rgdal
-        (>= 1.5.0), rgeos (>= 0.5), RstoxData (>= 1.2.17), RstoxBase
-        (>= 1.4.24)
-Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
-License: LGPL-3
-MD5sum: b3495028a37c3dc26b65b28bde027e4b
-NeedsCompilation: no
-
-Package: RstoxFDA
-Version: 1.0.3.9005
-Depends: R (>= 3.6)
-Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
-        data.table (>= 1.12.6), ggplot2 (>= 3.2.1), RColorBrewer (>=
-        1.1-2), gridExtra (>= 2.3), sp (>= 1.3.2), sf (>= 0.9.0), rgdal
-        (>= 1.5.0), rgeos (>= 0.5), RstoxData (>= 1.2.20), RstoxBase
-        (>= 1.4.26)
-Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
-License: LGPL-3
-MD5sum: eb0698337264f68bd401abe80169763a
-NeedsCompilation: no
-
-Package: RstoxFDA
-Version: 1.0.3.9006
-Depends: R (>= 3.6)
-Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
-        data.table (>= 1.12.6), ggplot2 (>= 3.2.1), RColorBrewer (>=
-        1.1-2), gridExtra (>= 2.3), sp (>= 1.3.2), sf (>= 0.9.0), rgdal
-        (>= 1.5.0), rgeos (>= 0.5), RstoxData (>= 1.2.20), RstoxBase
-        (>= 1.4.26)
-Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
-License: LGPL-3
-MD5sum: 5e345263ce4a181723883340a758a404
-NeedsCompilation: no
-
-Package: RstoxFDA
-Version: 1.0.3.9007
-Depends: R (>= 3.6)
-Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
-        data.table (>= 1.12.6), ggplot2 (>= 3.2.1), RColorBrewer (>=
-        1.1-2), gridExtra (>= 2.3), sp (>= 1.3.2), sf (>= 0.9.0), rgdal
-        (>= 1.5.0), rgeos (>= 0.5), RstoxData (>= 1.2.20), RstoxBase
-        (>= 1.4.28)
-Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
-License: LGPL-3
-MD5sum: 482d58c69adfeb11bf3f71bf231f6621
-NeedsCompilation: no
-
-Package: RstoxFDA
-Version: 1.0.3.9008
-Depends: R (>= 3.6)
-Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
-        data.table (>= 1.12.6), ggplot2 (>= 3.2.1), RColorBrewer (>=
-        1.1-2), gridExtra (>= 2.3), sp (>= 1.3.2), sf (>= 0.9.0), rgdal
-        (>= 1.5.0), rgeos (>= 0.5), RstoxData (>= 1.2.21), RstoxBase
-        (>= 1.4.30)
-Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
-License: LGPL-3
-MD5sum: cb9712c9435eec4cc7e333118fcba62e
-NeedsCompilation: no
-
-Package: RstoxFDA
-Version: 1.0.3.9009
-Depends: R (>= 3.6)
-Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
-        data.table (>= 1.12.6), ggplot2 (>= 3.2.1), RColorBrewer (>=
-        1.1-2), gridExtra (>= 2.3), sp (>= 1.3.2), sf (>= 0.9.0), rgdal
-        (>= 1.5.0), rgeos (>= 0.5), RstoxData (>= 1.2.21), RstoxBase
-        (>= 1.4.31)
-Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
-License: LGPL-3
-MD5sum: ad1a1f9ed2f42940b6ed9034d0fbaebb
-NeedsCompilation: no
-
-Package: RstoxFDA
-Version: 1.0.3.9010
-Depends: R (>= 3.6)
-Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
-        data.table (>= 1.12.6), ggplot2 (>= 3.2.1), RColorBrewer (>=
-        1.1-2), gridExtra (>= 2.3), sp (>= 1.3.2), sf (>= 0.9.0), rgdal
-        (>= 1.5.0), rgeos (>= 0.5), RstoxData (>= 1.2.21), RstoxBase
-        (>= 1.4.31)
-Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
-License: LGPL-3
-MD5sum: 8bc86c48c2c407be15462eb7d2e1507c
-NeedsCompilation: no
-
-Package: RstoxFDA
-Version: 1.0.3.9011
-Depends: R (>= 3.6)
-Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
-        data.table (>= 1.12.6), ggplot2 (>= 3.2.1), RColorBrewer (>=
-        1.1-2), gridExtra (>= 2.3), sp (>= 1.3.2), sf (>= 0.9.0), rgdal
-        (>= 1.5.0), rgeos (>= 0.5), RstoxData (>= 1.2.21), RstoxBase
-        (>= 1.4.31)
-Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
-License: LGPL-3
-MD5sum: a9b878e835da9e3ddcbe6ce5764e8242
-NeedsCompilation: no
-
-Package: RstoxFDA
-Version: 1.0.3.9012
-Depends: R (>= 3.6)
-Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
-        data.table (>= 1.12.6), ggplot2 (>= 3.2.1), RColorBrewer (>=
-        1.1-2), gridExtra (>= 2.3), sp (>= 1.3.2), sf (>= 0.9.0), rgdal
-        (>= 1.5.0), rgeos (>= 0.5), RstoxData (>= 1.3.3), RstoxBase (>=
-        1.5.2)
-Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
-License: LGPL-3
-MD5sum: 658855ad0d17cad37bc72d4830d3f4bd
-NeedsCompilation: no
-
-Package: RstoxFDA
-Version: 1.0.3.9013
-Depends: R (>= 3.6)
-Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
-        data.table (>= 1.12.6), ggplot2 (>= 3.2.1), RColorBrewer (>=
-        1.1-2), gridExtra (>= 2.3), sp (>= 1.3.2), sf (>= 0.9.0), rgdal
-        (>= 1.5.0), rgeos (>= 0.5), RstoxData (>= 1.3.3), RstoxBase (>=
-        1.5.2)
-Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
-License: LGPL-3
-MD5sum: 0bf6b11e6027a4755df6c5e2f078d0cc
-NeedsCompilation: no
-
-Package: RstoxFDA
-Version: 1.0.3.9014
-Depends: R (>= 3.6)
-Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
-        data.table (>= 1.12.6), ggplot2 (>= 3.2.1), RColorBrewer (>=
-        1.1-2), gridExtra (>= 2.3), sp (>= 1.3.2), sf (>= 0.9.0), rgdal
-        (>= 1.5.0), rgeos (>= 0.5), RstoxData (>= 1.5.1), RstoxBase (>=
-        1.7.0)
-Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
-License: LGPL-3
-MD5sum: e7540ff46bfac50e9368a6f194947bb9
-NeedsCompilation: no
-
-Package: RstoxFDA
-Version: 1.0.3.9015
-Depends: R (>= 3.6)
-Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
-        data.table (>= 1.12.6), ggplot2 (>= 3.2.1), RColorBrewer (>=
-        1.1-2), gridExtra (>= 2.3), sp (>= 1.3.2), sf (>= 0.9.0), rgdal
-        (>= 1.5.0), rgeos (>= 0.5), RstoxData (>= 1.5.2), RstoxBase (>=
-        1.7.0)
-Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
-License: LGPL-3
-MD5sum: a51849663dc6a9890d81971655678b13
-NeedsCompilation: no
-
-Package: RstoxFDA
-Version: 1.0.3.9016
-Depends: R (>= 3.6)
-Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
-        data.table (>= 1.12.6), ggplot2 (>= 3.2.1), RColorBrewer (>=
-        1.1-2), gridExtra (>= 2.3), sp (>= 1.3.2), sf (>= 0.9.0), rgdal
-        (>= 1.5.0), rgeos (>= 0.5), RstoxData (>= 1.5.2), RstoxBase (>=
-        1.7.0)
-Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
-License: LGPL-3
-MD5sum: 98d08c7e8c6a01fd09488dece41fde39
-NeedsCompilation: no
-
-Package: RstoxFDA
-Version: 1.0.3.9017
-Depends: R (>= 3.6)
-Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
-        data.table (>= 1.12.6), ggplot2 (>= 3.2.1), RColorBrewer (>=
-        1.1-2), gridExtra (>= 2.3), sp (>= 1.3.2), sf (>= 0.9.0), rgdal
-        (>= 1.5.0), rgeos (>= 0.5), RstoxData (>= 1.5.3), RstoxBase (>=
-        1.7.0)
-Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
-License: LGPL-3
-MD5sum: 63ebef5eca23a0d58bfe58c74c888c44
-NeedsCompilation: no
-
-Package: RstoxFDA
-Version: 1.0.3.9018
-Depends: R (>= 3.6)
-Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
-        data.table (>= 1.12.6), ggplot2 (>= 3.2.1), RColorBrewer (>=
-        1.1-2), gridExtra (>= 2.3), sp (>= 1.3.2), sf (>= 0.9.0), rgdal
-        (>= 1.5.0), rgeos (>= 0.5), RstoxData (>= 1.5.3), RstoxBase (>=
-        1.7.0)
-Suggests: rnaturalearth, Reca, tinytest, rnaturalearthdata
-License: LGPL-3
-MD5sum: ed0ae7a4a05a127b32aaf6bd76f2309b
-NeedsCompilation: no
-
-Package: RstoxFDA
-Version: 1.0.3.9019
-Depends: R (>= 3.6)
-Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
-        data.table (>= 1.12.6), ggplot2 (>= 3.2.1), RColorBrewer (>=
-        1.1-2), gridExtra (>= 2.3), sp (>= 1.3.2), sf (>= 0.9.0), rgdal
-        (>= 1.5.0), rgeos (>= 0.5), RstoxData (>= 1.5.4), RstoxBase (>=
-        1.7.1)
-Suggests: rnaturalearth, Reca, tinytest, rnaturalearthdata
-License: LGPL-3
-MD5sum: 7ce45c7d29c5c998635114df2e600f3b
-NeedsCompilation: no
-
-Package: RstoxFDA
-Version: 1.0.3.9020
-Depends: R (>= 3.6)
-Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
-        data.table (>= 1.12.6), ggplot2 (>= 3.2.1), RColorBrewer (>=
-        1.1-2), gridExtra (>= 2.3), sp (>= 1.3.2), sf (>= 0.9.0), rgdal
-        (>= 1.5.0), rgeos (>= 0.5), RstoxData (>= 1.5.4), RstoxBase (>=
-        1.7.1)
-Suggests: rnaturalearth, Reca, tinytest, rnaturalearthdata
-License: LGPL-3
-MD5sum: eb466698c7739320aff677fc846d1723
-NeedsCompilation: no
-
-Package: RstoxFDA
-Version: 1.0.3.9021
-Depends: R (>= 3.6)
-Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
-        data.table (>= 1.12.6), ggplot2 (>= 3.2.1), RColorBrewer (>=
-        1.1-2), gridExtra (>= 2.3), sp (>= 1.3.2), sf (>= 0.9.0), rgdal
-        (>= 1.5.0), rgeos (>= 0.5), RstoxData (>= 1.5.4), RstoxBase (>=
-        1.7.1)
-Suggests: rnaturalearth, Reca, tinytest, rnaturalearthdata
-License: LGPL-3
-MD5sum: dcdadc85cb67a9e4864fe44c850e88a9
-NeedsCompilation: no
-
-Package: RstoxFDA
-Version: 1.0.3.9022
-Depends: R (>= 3.6)
-Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
-        data.table (>= 1.12.6), ggplot2 (>= 3.2.1), RColorBrewer (>=
-        1.1-2), gridExtra (>= 2.3), sp (>= 1.3.2), sf (>= 0.9.0), rgdal
-        (>= 1.5.0), rgeos (>= 0.5), RstoxData (>= 1.5.6), RstoxBase (>=
-        1.7.1)
-Suggests: rnaturalearth, Reca, tinytest, rnaturalearthdata
-License: LGPL-3
-MD5sum: 7314eeebc0520cfea0a7bce912502e11
-NeedsCompilation: no
-
-Package: RstoxFDA
-Version: 1.0.3.9023
-Depends: R (>= 3.6)
-Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
-        data.table (>= 1.12.6), ggplot2 (>= 3.2.1), RColorBrewer (>=
-        1.1-2), gridExtra (>= 2.3), sp (>= 1.3.2), sf (>= 0.9.0), rgdal
-        (>= 1.5.0), rgeos (>= 0.5), RstoxData (>= 1.5.8), RstoxBase (>=
-        1.7.3)
-Suggests: rnaturalearth, Reca, tinytest, rnaturalearthdata
-License: LGPL-3
-MD5sum: 4c21dd19af90bc8b810a486e8d8f209f
-NeedsCompilation: no
-
-Package: RstoxFDA
-Version: 1.0.3.9024
-Depends: R (>= 3.6)
-Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
-        data.table (>= 1.12.6), ggplot2 (>= 3.2.1), RColorBrewer (>=
-        1.1-2), gridExtra (>= 2.3), sp (>= 1.3.2), sf (>= 0.9.0), rgdal
-        (>= 1.5.0), rgeos (>= 0.5), RstoxData (>= 1.5.15), RstoxBase
-        (>= 1.7.8)
-Suggests: rnaturalearth, Reca, tinytest, rnaturalearthdata
-License: LGPL-3
-MD5sum: 6fce71f7d28168ed98098e9a869a5570
-NeedsCompilation: no
-
-Package: RstoxFDA
-Version: 1.0.3.9025
-Depends: R (>= 3.6)
-Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
-        data.table (>= 1.12.6), ggplot2 (>= 3.2.1), RColorBrewer (>=
-        1.1-2), gridExtra (>= 2.3), sp (>= 1.3.2), sf (>= 0.9.0), rgdal
-        (>= 1.5.0), rgeos (>= 0.5), RstoxData (>= 1.6.0), RstoxBase (>=
-        1.9.0)
-Suggests: rnaturalearth, Reca, tinytest, rnaturalearthdata
-License: LGPL-3
-MD5sum: ae5a3180da23e968887565e169b0641f
-NeedsCompilation: no
-
-Package: RstoxFDA
-Version: 1.0.3.9026
-Depends: R (>= 3.6)
-Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
-        data.table (>= 1.12.6), ggplot2 (>= 3.2.1), RColorBrewer (>=
-        1.1-2), gridExtra (>= 2.3), sp (>= 1.3.2), sf (>= 0.9.0), rgdal
-        (>= 1.5.0), rgeos (>= 0.5), RstoxData (>= 1.6.0), RstoxBase (>=
-        1.9.0)
-Suggests: rnaturalearth, Reca, tinytest, rnaturalearthdata, knitr,
-        rmarkdown
-License: LGPL-3
-MD5sum: c93627af895f6bdb09faf1142c291740
 NeedsCompilation: no
 
 Package: RstoxFDA

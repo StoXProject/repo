@@ -1,3 +1,14 @@
+Package: RstoxBase
+Version: 1.11.2
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
+        3.0.0), lwgeom (>= 0.2-0), maps (>= 0.2-0), methods (>= 3.6.0),
+        RstoxData (>= 1.9.0), sf (>= 0.9.0), sp (>= 1.3.0), stringi (>=
+        1.4.0), units (>= 0.7), xml2 (>= 1.2.0)
+Suggests: tinytest (>= 1.2.0)
+License: LGPL-3
+MD5sum: 5be1327c06dd5cf9eb2824d0546f4af3
+
 Package: RstoxData
 Version: 1.9.0
 Depends: R (>= 3.6)

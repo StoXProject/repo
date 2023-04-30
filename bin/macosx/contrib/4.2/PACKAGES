@@ -131,7 +131,7 @@ Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
         1.4.0), units (>= 0.7), xml2 (>= 1.2.0)
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
-MD5sum: 3ed7e8708c77399d47828f125c6ae377
+MD5sum: 930e95cfc679aacb983cc39c581ffd76
 
 Package: RstoxData
 Version: 1.7.0

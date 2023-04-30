@@ -159,7 +159,7 @@ Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
         1.4.0), units (>= 0.7), xml2 (>= 1.2.0)
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
-MD5sum: d57c15f17ac4143e774bb745c945e8e1
+MD5sum: 062402eeeb7826bd22564db1640d449b
 NeedsCompilation: no
 
 Package: RstoxBase

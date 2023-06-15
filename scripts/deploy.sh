@@ -28,11 +28,13 @@ addToDrat(){
         
         echo "We have $PKG_REPO"
         
+        # Running Rscript with single expressions is required for R 4.3 on Windows, so we do that:
         if [ "${DEPLOY_SRC+x}" = x ]; then
-        Rscript -e "library(drat); insertPackage('$PKG_REPO/drat/$PKG_TARBALL', \
-          repodir = '.', \
-          commit='Repo update $PKG_REPO: build $TRAVIS_BUILD_NUMBER');
-          #drat::updateRepo('.')"
+        Rscript -e "install.packages('remotes', repos = 'https://cloud.r-project.org');"
+        Rscript -e "remotes::install_github(repo = 'eddelbuettel/drat', dependencies = FALSE);"
+        Rscript -e "if(require(drat)) drat::insertPackage('$PKG_REPO/drat/$PKG_TARBALL', repodir = '.', \
+            commit='Repo update $PKG_REPO: build $TRAVIS_BUILD_NUMBER');"
+        Rscript -e "if(require(drat)) drat::updateRepo('.')"
         fi
         
         if [ "${TRAVIS_BUILD_NUMBER+x}" = x ]; then
@@ -41,10 +43,11 @@ addToDrat(){
         export BUILD_NUMBER=$APPVEYOR_BUILD_NUMBER
         fi
         
-        Rscript -e "library(drat); insertPackage('$PKG_REPO/drat/$BINSRC', \
-        repodir = '.', \
-        commit='Repo update $PKG_REPO: build $BUILD_NUMBER');
-          #drat::updateRepo('.')"
+        # Running Rscript with single expressions is required for R 4.3 on Windows, so we do that:
+        Rscript -e "if(require(drat)) drat::insertPackage('$PKG_REPO/drat/$BINSRC', \
+            repodir = '.', \
+            commit='Repo update $PKG_REPO: build $BUILD_NUMBER');"
+        Rscript -e "if(require(drat)) drat::updateRepo('.')"
         git push 2>err.txt
         
     fi

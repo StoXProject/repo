@@ -1,4 +1,12 @@
 Package: Reca
+Version: 1.3
+Depends: R (>= 2.4.0),MASS
+Suggests: testthat
+License: GPL-2
+MD5sum: 00a06c506c96b91bc800fca6a65e9b40
+NeedsCompilation: yes
+
+Package: Reca
 Version: 1.3.9000
 Depends: R (>= 2.4.0),MASS
 Suggests: testthat
@@ -44,14 +52,6 @@ Depends: R (>= 2.4.0),MASS
 Suggests: testthat
 License: GPL-2
 MD5sum: 6dfb8904055dd7be03a6f0ef2eba3a79
-NeedsCompilation: yes
-
-Package: Reca
-Version: 1.3
-Depends: R (>= 2.4.0),MASS
-Suggests: testthat
-License: GPL-2
-MD5sum: 00a06c506c96b91bc800fca6a65e9b40
 NeedsCompilation: yes
 
 Package: RstoxBase
@@ -160,6 +160,18 @@ Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
 MD5sum: 21fdd564704f07bbd766cf6ba7d66a13
+NeedsCompilation: no
+
+Package: RstoxBase
+Version: 1.11.3
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
+        3.0.0), lwgeom (>= 0.2-0), maps (>= 0.2-0), methods (>= 3.6.0),
+        RstoxData (>= 1.9.0), sf (>= 0.9.0), sp (>= 1.3.0), stringi (>=
+        1.4.0), units (>= 0.7), xml2 (>= 1.2.0)
+Suggests: tinytest (>= 1.2.0)
+License: LGPL-3
+MD5sum: 8f1883104a48315c8b4f2d6fa7061141
 NeedsCompilation: no
 
 Package: RstoxBase

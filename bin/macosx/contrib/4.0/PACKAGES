@@ -45,17 +45,6 @@ License: LGPL-3
 MD5sum: 013a58ae78e89f14af39b509ebee8c01
 
 Package: RstoxBase
-Version: 1.10.1-9001
-Depends: R (>= 3.6)
-Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
-        3.0.0), lwgeom (>= 0.2-0), maps (>= 0.2-0), RstoxData (>=
-        1.7.0), sf (>= 0.9.0), sp (>= 1.3.0), stringi (>= 1.4.0), units
-        (>= 0.7), xml2 (>= 1.2.0)
-Suggests: tinytest (>= 1.2.0)
-License: LGPL-3
-MD5sum: 3bff84e8316c5bb4bc4a8c33aa036cc1
-
-Package: RstoxBase
 Version: 1.10.1
 Depends: R (>= 3.6)
 Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
@@ -65,6 +54,17 @@ Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
 MD5sum: dea7484d8694b5b5c71cae70a338632c
+
+Package: RstoxBase
+Version: 1.10.1-9001
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
+        3.0.0), lwgeom (>= 0.2-0), maps (>= 0.2-0), RstoxData (>=
+        1.7.0), sf (>= 0.9.0), sp (>= 1.3.0), stringi (>= 1.4.0), units
+        (>= 0.7), xml2 (>= 1.2.0)
+Suggests: tinytest (>= 1.2.0)
+License: LGPL-3
+MD5sum: 3bff84e8316c5bb4bc4a8c33aa036cc1
 
 Package: RstoxBase
 Version: 1.10.2
@@ -78,17 +78,6 @@ License: LGPL-3
 MD5sum: ebcd129f99290fe9b9632e6b2721c73e
 
 Package: RstoxBase
-Version: 1.10.3-9001
-Depends: R (>= 3.6)
-Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
-        3.0.0), lwgeom (>= 0.2-0), maps (>= 0.2-0), RstoxData (>=
-        1.7.3), sf (>= 0.9.0), sp (>= 1.3.0), stringi (>= 1.4.0), units
-        (>= 0.7), xml2 (>= 1.2.0)
-Suggests: tinytest (>= 1.2.0)
-License: LGPL-3
-MD5sum: be84becde0e5cad51d6b4e34c1006833
-
-Package: RstoxBase
 Version: 1.10.3
 Depends: R (>= 3.6)
 Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
@@ -98,6 +87,17 @@ Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
 MD5sum: c4599ffcb484eb3a4205405ca95ca467
+
+Package: RstoxBase
+Version: 1.10.3-9001
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
+        3.0.0), lwgeom (>= 0.2-0), maps (>= 0.2-0), RstoxData (>=
+        1.7.3), sf (>= 0.9.0), sp (>= 1.3.0), stringi (>= 1.4.0), units
+        (>= 0.7), xml2 (>= 1.2.0)
+Suggests: tinytest (>= 1.2.0)
+License: LGPL-3
+MD5sum: be84becde0e5cad51d6b4e34c1006833
 
 Package: RstoxBase
 Version: 1.10.4
@@ -268,16 +268,6 @@ License: LGPL-3
 MD5sum: edca79d58c83148c8ae2a8d5b1d0f412
 
 Package: RstoxData
-Version: 1.7.2-9001
-Depends: R (>= 3.6)
-Imports: data.table (>= 1.12.0), Rcpp (>= 1.0.0), stringi (>= 1.4.0),
-        units (>= 0.7), xml2 (>= 1.2.0), xslt (>= 1.4)
-LinkingTo: Rcpp
-Suggests: tinytest (>= 1.2.0)
-License: LGPL-3
-MD5sum: 71da3276fb79404c91297aed04144248
-
-Package: RstoxData
 Version: 1.7.2
 Depends: R (>= 3.6)
 Imports: data.table (>= 1.12.0), Rcpp (>= 1.0.0), stringi (>= 1.4.0),
@@ -286,6 +276,16 @@ LinkingTo: Rcpp
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
 MD5sum: 3e0d6109bbbe8a7495dfc2be009c279b
+
+Package: RstoxData
+Version: 1.7.2-9001
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.0), Rcpp (>= 1.0.0), stringi (>= 1.4.0),
+        units (>= 0.7), xml2 (>= 1.2.0), xslt (>= 1.4)
+LinkingTo: Rcpp
+Suggests: tinytest (>= 1.2.0)
+License: LGPL-3
+MD5sum: 71da3276fb79404c91297aed04144248
 
 Package: RstoxData
 Version: 1.7.3
@@ -298,16 +298,6 @@ License: LGPL-3
 MD5sum: 927711d6d7727bdc0808b9ff170b0706
 
 Package: RstoxData
-Version: 1.7.4-9001
-Depends: R (>= 3.6)
-Imports: data.table (>= 1.12.0), Rcpp (>= 1.0.0), stringi (>= 1.4.0),
-        units (>= 0.7), xml2 (>= 1.2.0), xslt (>= 1.4)
-LinkingTo: Rcpp
-Suggests: tinytest (>= 1.2.0)
-License: LGPL-3
-MD5sum: a4c2b3c4ad3272d7264c4f5852b95590
-
-Package: RstoxData
 Version: 1.7.4
 Depends: R (>= 3.6)
 Imports: data.table (>= 1.12.0), Rcpp (>= 1.0.0), stringi (>= 1.4.0),
@@ -316,6 +306,16 @@ LinkingTo: Rcpp
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
 MD5sum: dcc72801befece116f99ac00a0a72e9a
+
+Package: RstoxData
+Version: 1.7.4-9001
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.12.0), Rcpp (>= 1.0.0), stringi (>= 1.4.0),
+        units (>= 0.7), xml2 (>= 1.2.0), xslt (>= 1.4)
+LinkingTo: Rcpp
+Suggests: tinytest (>= 1.2.0)
+License: LGPL-3
+MD5sum: a4c2b3c4ad3272d7264c4f5852b95590
 
 Package: RstoxData
 Version: 1.7.5
@@ -348,18 +348,6 @@ License: LGPL-3
 MD5sum: 9c2c2fee0dcc9e124a344b48488b9a22
 
 Package: RstoxFDA
-Version: 1.0.1.9000
-Depends: R (>= 3.6)
-Imports: stats (>= 3.5.0), methods (>= 3.5.0), utils (>= 3.5.0), readr
-        (>= 1.3.1), data.table (>= 1.12.6), ggplot2 (>= 3.2.1),
-        RColorBrewer (>= 1.1-2), gridExtra (>= 2.3), sp (>= 1.3.2), sf
-        (>= 0.9.0), RstoxData (>= 1.0.25)
-Suggests: testthat, Reca, rgdal, rnaturalearth, rnaturalearthdata,
-        rgeos
-License: LGPL-3
-MD5sum: 5050cc04339716c6a47e34564d07d45e
-
-Package: RstoxFDA
 Version: 1.0.1
 Depends: R (>= 3.6)
 Imports: stats (>= 3.5.0), methods (>= 3.5.0), utils (>= 3.5.0), readr
@@ -372,6 +360,18 @@ License: LGPL-3
 MD5sum: 90999fffb568a27b496ea98d42652c98
 
 Package: RstoxFDA
+Version: 1.0.1.9000
+Depends: R (>= 3.6)
+Imports: stats (>= 3.5.0), methods (>= 3.5.0), utils (>= 3.5.0), readr
+        (>= 1.3.1), data.table (>= 1.12.6), ggplot2 (>= 3.2.1),
+        RColorBrewer (>= 1.1-2), gridExtra (>= 2.3), sp (>= 1.3.2), sf
+        (>= 0.9.0), RstoxData (>= 1.0.25)
+Suggests: testthat, Reca, rgdal, rnaturalearth, rnaturalearthdata,
+        rgeos
+License: LGPL-3
+MD5sum: 5050cc04339716c6a47e34564d07d45e
+
+Package: RstoxFDA
 Version: 1.0.2
 Depends: R (>= 3.6)
 Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
@@ -381,6 +381,18 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
 Suggests: rnaturalearth, rnaturalearthdata, Reca, testthat
 License: LGPL-3
 MD5sum: 451ad6df62ebd1c2454f0dba3d7bface
+
+Package: RstoxFDA
+Version: 1.0.3
+Depends: R (>= 3.6)
+Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
+        data.table (>= 1.12.6), ggplot2 (>= 3.2.1), RColorBrewer (>=
+        1.1-2), gridExtra (>= 2.3), sp (>= 1.3.2), sf (>= 0.9.0), rgdal
+        (>= 1.5.0), rgeos (>= 0.5), RstoxData (>= 1.2.15), RstoxBase
+        (>= 1.4.22)
+Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
+License: LGPL-3
+MD5sum: d05aafdb487bd461c38b18314a2b416b
 
 Package: RstoxFDA
 Version: 1.0.3.9000
@@ -453,18 +465,6 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
 Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
 License: LGPL-3
 MD5sum: ccc3658b61dd9dc9b32895c0052a830f
-
-Package: RstoxFDA
-Version: 1.0.3
-Depends: R (>= 3.6)
-Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
-        data.table (>= 1.12.6), ggplot2 (>= 3.2.1), RColorBrewer (>=
-        1.1-2), gridExtra (>= 2.3), sp (>= 1.3.2), sf (>= 0.9.0), rgdal
-        (>= 1.5.0), rgeos (>= 0.5), RstoxData (>= 1.2.15), RstoxBase
-        (>= 1.4.22)
-Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
-License: LGPL-3
-MD5sum: d05aafdb487bd461c38b18314a2b416b
 
 Package: RstoxFDA
 Version: 1.1.0

@@ -1,4 +1,11 @@
 Package: Reca
+Version: 1.3
+Depends: R (>= 2.4.0),MASS
+Suggests: testthat
+License: GPL-2
+MD5sum: a52e3a4b569886f1d6462a2381340bcd
+
+Package: Reca
 Version: 1.3.9000
 Depends: R (>= 2.4.0),MASS
 Suggests: testthat

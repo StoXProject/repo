@@ -3,7 +3,7 @@ Version: 1.3
 Depends: R (>= 2.4.0),MASS
 Suggests: testthat
 License: GPL-2
-MD5sum: 6e9598d498466e5bf7522cca3cf476a3
+MD5sum: 0d6a1df9ea2cb671d5f7a513867235da
 
 Package: Reca
 Version: 1.3.9004

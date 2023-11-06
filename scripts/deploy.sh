@@ -10,6 +10,7 @@ cd ..
 
 addToDrat(){
     
+    # This codition applies to pre-releases on the unstableRepo and the testingRepo, and to official releases on the repo:
     if [ "${PRERELEASE}" = false ]; then
         
         mkdir drat; cd drat
@@ -20,9 +21,9 @@ addToDrat(){
         git config user.email "stox@hi.no"
         git config --global push.default simple
         
-        ## Get drat repo
-        git remote add upstream "https://$API_KEY@github.com/StoXProject/repo.git"
-        
+        ## Get drat repo that we are in, so we know where we are (could this step be avoided?):
+        git remote add upstream "https://x-access-token:${DRAT_DEPLOY_TOKEN}@github.com/StoXProject/repo.git"
+
         git fetch upstream 2>err.txt
         git checkout gh-pages
         
@@ -30,10 +31,10 @@ addToDrat(){
         
         # Running Rscript with single expressions is required for R 4.3 on Windows, so we do that:
         if [ "${DEPLOY_SRC+x}" = x ]; then
-        Rscript -e "install.packages('remotes', repos = 'https://cloud.r-project.org');"
-        Rscript -e "remotes::install_github(repo = 'eddelbuettel/drat', dependencies = FALSE);"
+        Rscript -e "install.packages('remotes', repos = 'https://cloud.r-project.org')"
+        Rscript -e "remotes::install_github(repo = 'eddelbuettel/drat', dependencies = FALSE"
         Rscript -e "if(require(drat)) drat::insertPackage('$PKG_REPO/drat/$PKG_TARBALL', repodir = '.', \
-            commit='Repo update $PKG_REPO: build $TRAVIS_BUILD_NUMBER');"
+            commit='Repo update $PKG_REPO: build $TRAVIS_BUILD_NUMBER', OSflavour = R.Version()[['platform']])"
         Rscript -e "if(require(drat)) drat::updateRepo('.')"
         fi
         
@@ -45,9 +46,9 @@ addToDrat(){
         
         # Running Rscript with single expressions is required for R 4.3 on Windows, so we do that:
         Rscript -e "if(require(drat)) drat::insertPackage('$PKG_REPO/drat/$BINSRC', \
-            repodir = '.', \
-            commit='Repo update $PKG_REPO: build $BUILD_NUMBER');"
+            repodir = '.', commit='Repo update $PKG_REPO: build $BUILD_NUMBER')"
         Rscript -e "if(require(drat)) drat::updateRepo('.')"
+        
         git push 2>err.txt
         
     fi

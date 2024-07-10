@@ -853,4 +853,4 @@ Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
         stringi (>= 1.4.0)
 Suggests: remotes (>= 2.0.0), RstoxFDA (>= 1.2.0), tinytest (>= 1.2.0)
 License: LGPL-3
-MD5sum: cb8914b7abdb75d1781c235a996ded0f
+MD5sum: 4bd316c190a616067e89de6321591fb1

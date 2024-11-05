@@ -29,7 +29,7 @@ Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
         (>= 0.7), xml2 (>= 1.2.0)
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
-MD5sum: c91f47ac7519aee19d6965fede1b81b5
+MD5sum: b36524f282b430d89aba8f4039aa4caf
 
 Package: RstoxData
 Version: 1.10.0

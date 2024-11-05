@@ -254,7 +254,7 @@ Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
         (>= 0.7), xml2 (>= 1.2.0)
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
-MD5sum: d5563107d3d75b0d4bc3951d964d3827
+MD5sum: 25a42353ea60b1cb9b88c40892e6db33
 NeedsCompilation: no
 
 Package: RstoxData

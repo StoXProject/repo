@@ -50,7 +50,7 @@ Imports: data.table (>= 1.12.6), ggplot2 (>= 3.2.1), gridExtra (>=
         stats (>= 3.5.0), utils (>= 3.5.0)
 Suggests: knitr, Reca, rmarkdown, tinytest
 License: LGPL-3
-MD5sum: 16aca1d080e4fc25488ce0cb8a14a01a
+MD5sum: 234cd5d9c25afa897348f8be0d0f49f1
 
 Package: RstoxFramework
 Version: 4.1.0

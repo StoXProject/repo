@@ -302,7 +302,7 @@ Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
         (>= 0.7), xml2 (>= 1.2.0)
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
-MD5sum: 2695d9169f25e2d85399c80be47cb9d9
+MD5sum: 6412ec1b6c7e0cfea27949a0206d1631
 NeedsCompilation: no
 
 Package: RstoxData

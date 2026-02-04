@@ -51,7 +51,7 @@ Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
         (>= 0.7), xml2 (>= 1.2.0)
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
-MD5sum: ea4cbf88362160a4eeedb7773aa68358
+MD5sum: 68f64f5cb80affb7a88d16c3ba9932ec
 
 Package: RstoxData
 Version: 2.1.0

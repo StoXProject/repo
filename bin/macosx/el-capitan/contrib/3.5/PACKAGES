@@ -7,5 +7,3 @@ LinkingTo: Rcpp
 Suggests: testthat
 License: LGPL-3
 MD5sum: 89bb83b8e9f47afec7448643010573d3
-Built: R 3.5.3; x86_64-apple-darwin15.6.0; 2020-04-16 21:48:52 UTC;
-        unix

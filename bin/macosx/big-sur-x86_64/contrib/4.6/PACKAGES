@@ -7,4 +7,3 @@ LinkingTo: Rcpp
 Suggests: httr, knitr, rmarkdown, tinytest (>= 1.2.0)
 License: LGPL-3
 MD5sum: 8d9f47c146c1ab66fbbb8c154318b093
-Built: R 4.6.0; x86_64-apple-darwin20; 2026-06-25 08:32:40 UTC; unix

@@ -918,10 +918,10 @@ Version: 4.2.1
 Depends: R (>= 4.5)
 Imports: data.table (>= 1.18.0), geojsonsf (>= 2.0.0), ggplot2 (>=
         3.0.0), jsonlite (>= 1.6), jsonvalidate (>= 1.3.0), methods (>=
-        3.6.0), ncdf4 (>= 1.18), RstoxBase (>= 2.2.0), RstoxData (>=
+        3.6.0), ncdf4 (>= 1.18), RstoxBase (>= 2.2.1), RstoxData (>=
         2.2.1), scales (>= 1.1.0), semver (>= 0.2.0), sf (>= 0.9.0),
         stringi (>= 1.4.0)
 Suggests: RstoxFDA (>= 1.7.0), tinytest (>= 1.2.0)
 License: LGPL-3
-MD5sum: 9b40bfe1cdc3bdf3c2d566afbb1d5242
+MD5sum: e16bc70f839738f848dd7b251e581f90
 NeedsCompilation: no

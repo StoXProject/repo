@@ -85,3 +85,4 @@ Imports: data.table (>= 1.18.0), geojsonsf (>= 2.0.0), ggplot2 (>=
 Suggests: RstoxFDA (>= 1.7.0), tinytest (>= 1.2.0)
 License: LGPL-3
 MD5sum: 5fbe8e15bd0ede0291e7589392573047
+Built: R 4.5.3; ; 2026-06-27 07:27:28 UTC; unix

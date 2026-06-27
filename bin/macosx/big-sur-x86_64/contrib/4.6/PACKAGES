@@ -8,6 +8,7 @@ Imports: data.table (>= 1.18.0), geojsonsf (>= 2.0.0), ggplot2 (>=
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
 MD5sum: f4a8cb47771ef3d2a63fe885f915da15
+Built: R 4.6.0; ; 2026-06-25 11:10:56 UTC; unix
 
 Package: RstoxData
 Version: 2.2.1
@@ -18,15 +19,31 @@ LinkingTo: Rcpp
 Suggests: httr, knitr, rmarkdown, tinytest (>= 1.2.0)
 License: LGPL-3
 MD5sum: 8d9f47c146c1ab66fbbb8c154318b093
+Built: R 4.6.0; x86_64-apple-darwin20; 2026-06-25 08:32:40 UTC; unix
 
 Package: RstoxFramework
 Version: 4.2.1
 Depends: R (>= 4.5)
 Imports: data.table (>= 1.18.0), geojsonsf (>= 2.0.0), ggplot2 (>=
         3.0.0), jsonlite (>= 1.6), jsonvalidate (>= 1.3.0), methods (>=
-        3.6.0), ncdf4 (>= 1.18), RstoxBase (>= 2.2.0), RstoxData (>=
+        3.6.0), ncdf4 (>= 1.18), RstoxBase (>= 2.2.1), RstoxData (>=
         2.2.1), scales (>= 1.1.0), semver (>= 0.2.0), sf (>= 0.9.0),
         stringi (>= 1.4.0)
 Suggests: RstoxFDA (>= 1.7.0), tinytest (>= 1.2.0)
 License: LGPL-3
-MD5sum: 431ac43a1e6df002bd60c98ddc38c3b4
+MD5sum: b9f7882f7b46d497bf08b8ea1978201b
+File: RstoxFramework_4.2.1.tgz
+Built: R 4.6.1; ; 2026-06-27 07:31:42 UTC; unix
+
+Package: RstoxFramework
+Version: 4.2.1
+Depends: R (>= 4.5)
+Imports: data.table (>= 1.18.0), geojsonsf (>= 2.0.0), ggplot2 (>=
+        3.0.0), jsonlite (>= 1.6), jsonvalidate (>= 1.3.0), methods (>=
+        3.6.0), ncdf4 (>= 1.18), RstoxBase (>= 2.2.1), RstoxData (>=
+        2.2.1), scales (>= 1.1.0), semver (>= 0.2.0), sf (>= 0.9.0),
+        stringi (>= 1.4.0)
+Suggests: RstoxFDA (>= 1.7.0), tinytest (>= 1.2.0)
+License: LGPL-3
+MD5sum: b9f7882f7b46d497bf08b8ea1978201b
+Built: R 4.6.1; ; 2026-06-27 07:31:42 UTC; unix

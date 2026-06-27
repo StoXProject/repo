@@ -3,21 +3,18 @@ Version: 1.3.9004
 Depends: R (>= 2.4.0),MASS
 Suggests: testthat
 License: GPL-2
-Built: R 4.1.0; x86_64-w64-mingw32; 2021-06-11 14:24:31 UTC; windows
 
 Package: Reca
 Version: 1.3.9005
 Depends: R (>= 2.4.0),MASS
 Suggests: testthat
 License: GPL-2
-Built: R 4.1.3; x86_64-w64-mingw32; 2022-07-12 22:22:01 UTC; windows
 
 Package: Reca
 Version: 1.3
 Depends: R (>= 2.4.0),MASS
 Suggests: testthat
 License: GPL-2
-Built: R 4.1.3; x86_64-w64-mingw32; 2024-11-15 12:29:23 UTC; windows
 
 Package: RstoxBase
 Version: 1.10.0
@@ -28,7 +25,6 @@ Imports: data.table (>= 1.12.6), geojsonsf (>= 2.0.0), ggplot2 (>=
         1.2.2)
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
-Built: R 4.1.3; ; 2022-08-11 22:52:50 UTC; windows
 
 Package: RstoxBase
 Version: 1.10.1-9001
@@ -39,7 +35,6 @@ Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
         (>= 0.7), xml2 (>= 1.2.0)
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
-Built: R 4.1.3; ; 2022-11-13 15:35:32 UTC; windows
 
 Package: RstoxBase
 Version: 1.10.1
@@ -50,7 +45,6 @@ Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
         (>= 0.7), xml2 (>= 1.2.0)
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
-Built: R 4.1.3; ; 2022-11-14 07:06:34 UTC; windows
 
 Package: RstoxBase
 Version: 1.10.2
@@ -61,7 +55,6 @@ Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
         (>= 0.7), xml2 (>= 1.2.0)
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
-Built: R 4.1.3; ; 2022-11-14 21:20:44 UTC; windows
 
 Package: RstoxBase
 Version: 1.10.3-9001
@@ -72,7 +65,6 @@ Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
         (>= 0.7), xml2 (>= 1.2.0)
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
-Built: R 4.1.3; ; 2022-11-21 06:04:58 UTC; windows
 
 Package: RstoxBase
 Version: 1.10.3
@@ -83,7 +75,6 @@ Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
         (>= 0.7), xml2 (>= 1.2.0)
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
-Built: R 4.1.3; ; 2022-11-21 10:23:50 UTC; windows
 
 Package: RstoxBase
 Version: 1.10.4
@@ -94,7 +85,6 @@ Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
         (>= 0.7), xml2 (>= 1.2.0)
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
-Built: R 4.1.3; ; 2022-11-21 12:29:33 UTC; windows
 
 Package: RstoxBase
 Version: 1.10.5
@@ -105,7 +95,6 @@ Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
         (>= 0.7), xml2 (>= 1.2.0)
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
-Built: R 4.1.3; ; 2022-12-01 01:35:31 UTC; windows
 
 Package: RstoxBase
 Version: 1.11.0
@@ -116,7 +105,6 @@ Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
         (>= 0.7), xml2 (>= 1.2.0)
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
-Built: R 4.1.3; ; 2023-01-17 12:09:04 UTC; windows
 
 Package: RstoxBase
 Version: 1.11.1
@@ -127,7 +115,6 @@ Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
         (>= 0.7), xml2 (>= 1.2.0)
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
-Built: R 4.1.3; ; 2023-04-18 20:55:29 UTC; windows
 
 Package: RstoxBase
 Version: 1.11.2
@@ -138,7 +125,6 @@ Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
         1.4.0), units (>= 0.7), xml2 (>= 1.2.0)
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
-Built: R 4.1.3; ; 2023-05-03 09:49:48 UTC; windows
 
 Package: RstoxBase
 Version: 1.11.3
@@ -149,7 +135,6 @@ Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
         (>= 1.4.0), units (>= 0.7), xml2 (>= 1.2.0)
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
-Built: R 4.1.3; ; 2023-06-28 10:20:17 UTC; windows
 
 Package: RstoxBase
 Version: 1.4.0
@@ -159,7 +144,6 @@ Imports: geojsonsf (>= 2.0.0), data.table (>= 1.12.6), rgeos (>=
         (>= 3.0.0), units (>= 0.7), RstoxData (>= 1.2.0)
 Suggests: testthat
 License: LGPL-3
-Built: R 4.1.0; ; 2021-06-18 04:59:15 UTC; windows
 
 Package: RstoxBase
 Version: 1.5.0
@@ -171,7 +155,6 @@ Imports: geojsonsf (>= 2.0.0), data.table (>= 1.12.6), rgeos (>=
         1.3.0)
 Suggests: testthat
 License: LGPL-3
-Built: R 4.1.2; ; 2021-12-22 15:53:22 UTC; windows
 
 Package: RstoxBase
 Version: 1.7.0
@@ -183,7 +166,6 @@ Imports: geojsonsf (>= 2.0.0), data.table (>= 1.12.6), rgeos (>=
         1.5.0)
 Suggests: testthat
 License: LGPL-3
-Built: R 4.1.2; ; 2022-01-14 12:18:12 UTC; windows
 
 Package: RstoxBase
 Version: 1.8.0
@@ -194,7 +176,6 @@ Imports: geojsonsf (>= 2.0.0), data.table (>= 1.12.6), rgeos (>=
         1.2.2), stringi (>= 1.4.3), RstoxData (>= 1.6.0)
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
-Built: R 4.1.3; ; 2022-03-31 12:33:16 UTC; windows
 
 Package: RstoxData
 Version: 1.10.0
@@ -205,7 +186,6 @@ LinkingTo: Rcpp
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
 Archs: i386, x64
-Built: R 4.1.3; x86_64-w64-mingw32; 2023-06-27 06:08:34 UTC; windows
 
 Package: RstoxData
 Version: 1.10.1
@@ -216,7 +196,6 @@ LinkingTo: Rcpp
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
 Archs: i386, x64
-Built: R 4.1.3; x86_64-w64-mingw32; 2023-06-27 14:16:07 UTC; windows
 
 Package: RstoxData
 Version: 1.2.0
@@ -227,7 +206,6 @@ LinkingTo: Rcpp
 Suggests: testthat
 License: LGPL-3
 Archs: i386, x64
-Built: R 4.1.0; x86_64-w64-mingw32; 2021-06-17 23:38:33 UTC; windows
 
 Package: RstoxData
 Version: 1.3.0
@@ -238,7 +216,6 @@ LinkingTo: Rcpp
 Suggests: testthat
 License: LGPL-3
 Archs: i386, x64
-Built: R 4.1.2; x86_64-w64-mingw32; 2021-12-22 14:53:06 UTC; windows
 
 Package: RstoxData
 Version: 1.5.0
@@ -249,7 +226,6 @@ LinkingTo: Rcpp
 Suggests: testthat
 License: LGPL-3
 Archs: i386, x64
-Built: R 4.1.2; x86_64-w64-mingw32; 2022-01-14 11:18:16 UTC; windows
 
 Package: RstoxData
 Version: 1.6.0
@@ -260,7 +236,6 @@ LinkingTo: Rcpp
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
 Archs: i386, x64
-Built: R 4.1.3; x86_64-w64-mingw32; 2022-03-31 09:42:13 UTC; windows
 
 Package: RstoxData
 Version: 1.7.0
@@ -271,7 +246,6 @@ LinkingTo: Rcpp
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
 Archs: i386, x64
-Built: R 4.1.3; x86_64-w64-mingw32; 2022-08-13 09:06:11 UTC; windows
 
 Package: RstoxData
 Version: 1.7.1-9002
@@ -282,7 +256,6 @@ LinkingTo: Rcpp
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
 Archs: i386, x64
-Built: R 4.1.3; x86_64-w64-mingw32; 2022-10-31 11:52:34 UTC; windows
 
 Package: RstoxData
 Version: 1.7.2
@@ -293,7 +266,6 @@ LinkingTo: Rcpp
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
 Archs: i386, x64
-Built: R 4.1.3; x86_64-w64-mingw32; 2022-11-13 22:18:56 UTC; windows
 
 Package: RstoxData
 Version: 1.7.3
@@ -304,7 +276,6 @@ LinkingTo: Rcpp
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
 Archs: i386, x64
-Built: R 4.1.3; x86_64-w64-mingw32; 2022-11-14 00:15:11 UTC; windows
 
 Package: RstoxData
 Version: 1.7.4-9001
@@ -315,7 +286,6 @@ LinkingTo: Rcpp
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
 Archs: i386, x64
-Built: R 4.1.3; x86_64-w64-mingw32; 2022-11-20 21:39:57 UTC; windows
 
 Package: RstoxData
 Version: 1.7.4
@@ -326,7 +296,6 @@ LinkingTo: Rcpp
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
 Archs: i386, x64
-Built: R 4.1.3; x86_64-w64-mingw32; 2022-11-21 07:23:40 UTC; windows
 
 Package: RstoxData
 Version: 1.7.5
@@ -337,7 +306,6 @@ LinkingTo: Rcpp
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
 Archs: i386, x64
-Built: R 4.1.3; x86_64-w64-mingw32; 2022-11-21 23:03:27 UTC; windows
 
 Package: RstoxData
 Version: 1.8.0
@@ -348,7 +316,6 @@ LinkingTo: Rcpp
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
 Archs: i386, x64
-Built: R 4.1.3; x86_64-w64-mingw32; 2023-01-14 22:49:56 UTC; windows
 
 Package: RstoxData
 Version: 1.9.0
@@ -359,7 +326,6 @@ LinkingTo: Rcpp
 Suggests: tinytest (>= 1.2.0)
 License: LGPL-3
 Archs: i386, x64
-Built: R 4.1.3; x86_64-w64-mingw32; 2023-05-02 22:36:03 UTC; windows
 
 Package: RstoxFDA
 Version: 1.0.2
@@ -370,7 +336,6 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
         rgdal, rgeos, RstoxData (>= 1.0.25), RstoxBase
 Suggests: rnaturalearth, rnaturalearthdata, Reca, testthat
 License: LGPL-3
-Built: R 4.1.2; ; 2021-11-04 15:05:46 UTC; windows
 
 Package: RstoxFDA
 Version: 1.0.3.9000
@@ -382,7 +347,6 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
         (>= 1.4.23)
 Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
 License: LGPL-3
-Built: R 4.1.2; ; 2021-11-17 13:54:08 UTC; windows
 
 Package: RstoxFDA
 Version: 1.0.3.9001
@@ -394,7 +358,6 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
         (>= 1.4.24)
 Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
 License: LGPL-3
-Built: R 4.1.2; ; 2021-11-19 18:13:33 UTC; windows
 
 Package: RstoxFDA
 Version: 1.0.3.9002
@@ -406,7 +369,6 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
         (>= 1.4.24)
 Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
 License: LGPL-3
-Built: R 4.1.2; ; 2021-11-19 20:11:21 UTC; windows
 
 Package: RstoxFDA
 Version: 1.0.3.9003
@@ -418,7 +380,6 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
         (>= 1.4.24)
 Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
 License: LGPL-3
-Built: R 4.1.2; ; 2021-11-26 14:47:38 UTC; windows
 
 Package: RstoxFDA
 Version: 1.0.3.9004
@@ -430,7 +391,6 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
         (>= 1.4.24)
 Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
 License: LGPL-3
-Built: R 4.1.2; ; 2021-12-03 00:56:48 UTC; windows
 
 Package: RstoxFDA
 Version: 1.0.3.9005
@@ -442,7 +402,6 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
         (>= 1.4.26)
 Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
 License: LGPL-3
-Built: R 4.1.2; ; 2021-12-10 02:56:50 UTC; windows
 
 Package: RstoxFDA
 Version: 1.0.3.9006
@@ -454,7 +413,6 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
         (>= 1.4.26)
 Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
 License: LGPL-3
-Built: R 4.1.2; ; 2021-12-17 01:05:09 UTC; windows
 
 Package: RstoxFDA
 Version: 1.0.3.9007
@@ -466,7 +424,6 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
         (>= 1.4.28)
 Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
 License: LGPL-3
-Built: R 4.1.2; ; 2021-12-19 01:11:19 UTC; windows
 
 Package: RstoxFDA
 Version: 1.0.3.9008
@@ -478,7 +435,6 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
         (>= 1.4.30)
 Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
 License: LGPL-3
-Built: R 4.1.2; ; 2021-12-22 02:59:17 UTC; windows
 
 Package: RstoxFDA
 Version: 1.0.3.9009
@@ -490,7 +446,6 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
         (>= 1.4.31)
 Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
 License: LGPL-3
-Built: R 4.1.2; ; 2021-12-22 15:29:14 UTC; windows
 
 Package: RstoxFDA
 Version: 1.0.3.9010
@@ -502,7 +457,6 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
         (>= 1.4.31)
 Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
 License: LGPL-3
-Built: R 4.1.2; ; 2021-12-23 01:38:07 UTC; windows
 
 Package: RstoxFDA
 Version: 1.0.3.9011
@@ -514,7 +468,6 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
         (>= 1.4.31)
 Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
 License: LGPL-3
-Built: R 4.1.2; ; 2021-12-23 16:09:24 UTC; windows
 
 Package: RstoxFDA
 Version: 1.0.3.9012
@@ -526,7 +479,6 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
         1.5.2)
 Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
 License: LGPL-3
-Built: R 4.1.2; ; 2022-01-10 21:16:08 UTC; windows
 
 Package: RstoxFDA
 Version: 1.0.3.9013
@@ -538,7 +490,6 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
         1.5.2)
 Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
 License: LGPL-3
-Built: R 4.1.2; ; 2022-01-11 18:17:01 UTC; windows
 
 Package: RstoxFDA
 Version: 1.0.3.9014
@@ -550,7 +501,6 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
         1.7.0)
 Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
 License: LGPL-3
-Built: R 4.1.2; ; 2022-01-19 15:02:34 UTC; windows
 
 Package: RstoxFDA
 Version: 1.0.3.9015
@@ -562,7 +512,6 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
         1.7.0)
 Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
 License: LGPL-3
-Built: R 4.1.2; ; 2022-01-21 01:37:22 UTC; windows
 
 Package: RstoxFDA
 Version: 1.0.3.9016
@@ -574,7 +523,6 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
         1.7.0)
 Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
 License: LGPL-3
-Built: R 4.1.2; ; 2022-01-21 14:59:01 UTC; windows
 
 Package: RstoxFDA
 Version: 1.0.3.9017
@@ -586,7 +534,6 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
         1.7.0)
 Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
 License: LGPL-3
-Built: R 4.1.2; ; 2022-01-24 13:08:38 UTC; windows
 
 Package: RstoxFDA
 Version: 1.0.3.9018
@@ -598,7 +545,6 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
         1.7.0)
 Suggests: rnaturalearth, Reca, tinytest, rnaturalearthdata
 License: LGPL-3
-Built: R 4.1.2; ; 2022-01-25 01:39:16 UTC; windows
 
 Package: RstoxFDA
 Version: 1.0.3.9019
@@ -610,7 +556,6 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
         1.7.1)
 Suggests: rnaturalearth, Reca, tinytest, rnaturalearthdata
 License: LGPL-3
-Built: R 4.1.2; ; 2022-01-26 12:44:36 UTC; windows
 
 Package: RstoxFDA
 Version: 1.0.3.9020
@@ -622,7 +567,6 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
         1.7.1)
 Suggests: rnaturalearth, Reca, tinytest, rnaturalearthdata
 License: LGPL-3
-Built: R 4.1.2; ; 2022-01-27 23:14:49 UTC; windows
 
 Package: RstoxFDA
 Version: 1.0.3.9021
@@ -634,7 +578,6 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
         1.7.1)
 Suggests: rnaturalearth, Reca, tinytest, rnaturalearthdata
 License: LGPL-3
-Built: R 4.1.2; ; 2022-02-01 07:01:33 UTC; windows
 
 Package: RstoxFDA
 Version: 1.0.3.9022
@@ -646,7 +589,6 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
         1.7.1)
 Suggests: rnaturalearth, Reca, tinytest, rnaturalearthdata
 License: LGPL-3
-Built: R 4.1.2; ; 2022-02-02 11:42:09 UTC; windows
 
 Package: RstoxFDA
 Version: 1.0.3.9023
@@ -658,7 +600,6 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
         1.7.3)
 Suggests: rnaturalearth, Reca, tinytest, rnaturalearthdata
 License: LGPL-3
-Built: R 4.1.2; ; 2022-03-08 16:10:33 UTC; windows
 
 Package: RstoxFDA
 Version: 1.0.3.9024
@@ -670,7 +611,6 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
         (>= 1.7.8)
 Suggests: rnaturalearth, Reca, tinytest, rnaturalearthdata
 License: LGPL-3
-Built: R 4.1.3; ; 2022-03-14 14:50:23 UTC; windows
 
 Package: RstoxFDA
 Version: 1.0.3.9025
@@ -682,7 +622,6 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
         1.9.0)
 Suggests: rnaturalearth, Reca, tinytest, rnaturalearthdata
 License: LGPL-3
-Built: R 4.1.3; ; 2022-04-05 19:38:01 UTC; windows
 
 Package: RstoxFDA
 Version: 1.0.3
@@ -694,7 +633,6 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
         (>= 1.4.22)
 Suggests: rnaturalearth, Reca, testthat, rnaturalearthdata
 License: LGPL-3
-Built: R 4.1.2; ; 2021-11-15 13:52:36 UTC; windows
 
 Package: RstoxFDA
 Version: 1.0.4
@@ -706,7 +644,6 @@ Imports: methods (>= 3.5.0), utils (>= 3.5.0), stats (>= 3.5.0),
         rnaturalearth (>= 0.1.0), rnaturalearthdata (>= 0.1.0)
 Suggests: Reca, tinytest, knitr, rmarkdown
 License: LGPL-3
-Built: R 4.1.3; ; 2022-10-24 14:13:52 UTC; windows
 
 Package: RstoxFDA
 Version: 1.1.0
@@ -718,7 +655,6 @@ Imports: data.table (>= 1.14.2), ggplot2 (>= 3.2.1), gridExtra (>=
         (>= 1.3.2), stats (>= 3.5.0), utils (>= 3.5.0)
 Suggests: knitr, Reca, rmarkdown, tinytest
 License: LGPL-3
-Built: R 4.1.3; ; 2022-11-26 15:18:54 UTC; windows
 
 Package: RstoxFDA
 Version: 1.2.0
@@ -730,7 +666,6 @@ Imports: data.table (>= 1.14.2), ggplot2 (>= 3.2.1), gridExtra (>=
         (>= 1.3.2), stats (>= 3.5.0), utils (>= 3.5.0)
 Suggests: knitr, Reca, rmarkdown, tinytest
 License: LGPL-3
-Built: R 4.1.3; ; 2023-01-26 09:16:34 UTC; windows
 
 Package: RstoxFramework
 Version: 3.1.0
@@ -741,7 +676,6 @@ Imports: geojsonsf (>= 2.0.0), data.table (>= 1.12.6), jsonlite (>=
         1.4.3), RstoxData (>= 1.2.0), RstoxBase (>= 1.4.0)
 Suggests: RCurl (>= 1.95-4.10), remotes (>= 2.0.0), testthat (>= 2.0.0)
 License: LGPL-3
-Built: R 4.1.0; ; 2021-06-18 06:56:14 UTC; windows
 
 Package: RstoxFramework
 Version: 3.2.0
@@ -753,7 +687,6 @@ Imports: geojsonsf (>= 2.0.0), data.table (>= 1.12.6), jsonlite (>=
         1.5.0)
 Suggests: remotes (>= 2.0.0), testthat (>= 2.0.0)
 License: LGPL-3
-Built: R 4.1.2; ; 2021-12-22 17:11:09 UTC; windows
 
 Package: RstoxFramework
 Version: 3.3.0
@@ -765,7 +698,6 @@ Imports: geojsonsf (>= 2.0.0), data.table (>= 1.12.6), jsonlite (>=
         1.7.0)
 Suggests: remotes (>= 2.0.0), testthat (>= 2.0.0)
 License: LGPL-3
-Built: R 4.1.2; ; 2022-01-14 14:54:52 UTC; windows
 
 Package: RstoxFramework
 Version: 3.4.0
@@ -776,7 +708,6 @@ Imports: geojsonsf (>= 2.0.0), data.table (>= 1.12.6), jsonlite (>=
         1.4.3), RstoxData (>= 1.6.0), RstoxBase (>= 1.8.0)
 Suggests: remotes (>= 2.0.0), tinytest (>= 1.2.0)
 License: LGPL-3
-Built: R 4.1.3; ; 2022-03-31 21:17:49 UTC; windows
 
 Package: RstoxFramework
 Version: 3.5.0
@@ -787,7 +718,6 @@ Imports: data.table (>= 1.12.6), geojsonsf (>= 2.0.0), jsonlite (>=
         1.3.2), stringi (>= 1.4.3)
 Suggests: remotes (>= 2.0.0), tinytest (>= 1.2.0)
 License: LGPL-3
-Built: R 4.1.3; ; 2022-08-31 06:56:18 UTC; windows
 
 Package: RstoxFramework
 Version: 3.5.1
@@ -798,7 +728,6 @@ Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
         0.9.0), sp (>= 1.3.0), stringi (>= 1.4.0)
 Suggests: remotes (>= 2.0.0), tinytest (>= 1.2.0)
 License: LGPL-3
-Built: R 4.1.3; ; 2022-11-16 21:49:14 UTC; windows
 
 Package: RstoxFramework
 Version: 3.5.2
@@ -809,7 +738,6 @@ Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
         0.9.0), sp (>= 1.3.0), stringi (>= 1.4.0)
 Suggests: remotes (>= 2.0.0), tinytest (>= 1.2.0)
 License: LGPL-3
-Built: R 4.1.3; ; 2022-11-22 06:10:44 UTC; windows
 
 Package: RstoxFramework
 Version: 3.6.0
@@ -821,7 +749,6 @@ Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
 Suggests: remotes (>= 2.0.0), RstoxFDA (>= 1.1.0-9001), tinytest (>=
         1.2.0)
 License: LGPL-3
-Built: R 4.1.3; ; 2023-01-18 14:27:58 UTC; windows
 
 Package: RstoxFramework
 Version: 3.6.1
@@ -833,7 +760,6 @@ Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
         (>= 1.3.0), stringi (>= 1.4.0)
 Suggests: remotes (>= 2.0.0), RstoxFDA (>= 1.2.0), tinytest (>= 1.2.0)
 License: LGPL-3
-Built: R 4.1.3; ; 2023-05-03 20:56:05 UTC; windows
 
 Package: RstoxFramework
 Version: 3.6.2
@@ -845,4 +771,3 @@ Imports: data.table (>= 1.12.0), geojsonsf (>= 2.0.0), ggplot2 (>=
         sp (>= 1.3.0), stringi (>= 1.4.0)
 Suggests: remotes (>= 2.0.0), RstoxFDA (>= 1.2.0), tinytest (>= 1.2.0)
 License: LGPL-3
-Built: R 4.1.3; ; 2023-06-28 17:38:55 UTC; windows

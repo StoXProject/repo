@@ -923,5 +923,5 @@ Imports: data.table (>= 1.18.0), geojsonsf (>= 2.0.0), ggplot2 (>=
         stringi (>= 1.4.0)
 Suggests: RstoxFDA (>= 1.7.0), tinytest (>= 1.2.0)
 License: LGPL-3
-MD5sum: e16bc70f839738f848dd7b251e581f90
+MD5sum: e0f6fafd9cb1499202e20cc4e1c16355
 NeedsCompilation: no
